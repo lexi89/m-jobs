@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Missions</h1>
+
+
+    <% @companies.each do |company| %>
+    <%= company.mission %>
+    <br>
+    <%= company.name %>
+    <br>
+    Add company logo
+    <br>
+    <%= company.description %>
+     <%= link_to 'Show', company %>
+	 <%= link_to 'Edit', edit_company_path(company) %>
+     <%= link_to 'Destroy', company, method: :delete, data: { confirm: 'Are you sure?' } %>
+	<br>
+	<br>    
+    <% end %>
+
+<%= link_to 'New Company', new_company_path %>
