@@ -3,5 +3,19 @@
 Add company logo <br>
 <%= @company.mission %> <br>
 <%= @company.description %> <br>
+
+<h2>Jobs:</h2>
+<% if (@company.jobs.count == 0) %>
+<p>No openings at <%= @company.name %></p>
+<% else %>
+	<% @company.jobs.each do |j| %> 
+		<%= j.title %> <br>
+		<%= j.description %> <br>
+		<%= j.salary %> <br>
+		<%= j.requirements %> <br>
+		<%= j.link %> <br>
+	<% end %>
+<% end %>
 <%= link_to 'Edit', edit_company_path(@company) %> |
-<%= link_to 'Back', companies_path %>
+<%= link_to 'Back', companies_path %> |
+<%= link_to "Add a job", new_company_job_path(@company) %>
