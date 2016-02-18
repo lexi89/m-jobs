@@ -1,21 +1,21 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Missions</h1>
-
+<h1>All Missions:</h1>
 
     <% @companies.each do |company| %>
-    <%= company.mission %>
-    <br>
-    <%= company.name %>
-    <br>
-    Add company logo
-    <br>
-    <%= company.description %>
+    <h2><%= company.name %></h2>
+    <h3>Mission: <%= company.mission %></h3>
+    
+    <p>Add company logo</p>
+    <p>Short description:<%= company.description %></p>
+    
      <%= link_to 'Show', company %>
+     <% if user_signed_in? && current_user.role == "admin" %>
 	 <%= link_to 'Edit', edit_company_path(company) %>
      <%= link_to 'Destroy', company, method: :delete, data: { confirm: 'Are you sure?' } %>
+     <% end %>
 	<br>
 	<br>    
     <% end %>
 
+<% if user_signed_in? && current_user.role == "admin" %>
 <%= link_to 'New Company', new_company_path %>
+<% end %>

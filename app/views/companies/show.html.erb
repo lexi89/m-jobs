@@ -1,21 +1,23 @@
 <p id="notice"><%= notice %></p>
-<%= @company.name %> <br>
-Add company logo <br>
-<%= @company.mission %> <br>
-<%= @company.description %> <br>
+<h1><%= @company.name %></h1>
+Add company logo
+<h2><%= @company.mission %></h2>
+<p><%= @company.description %></p>
 
 <h2>Jobs:</h2>
 <% if (@company.jobs.count == 0) %>
 <p>No openings at <%= @company.name %></p>
 <% else %>
 	<% @company.jobs.each do |j| %> 
-		<%= j.title %> <br>
-		<%= j.description %> <br>
-		<%= j.salary %> <br>
-		<%= j.requirements %> <br>
-		<%= j.link %> <br>
+		<h2><%= j.title %></h2>
+		<p><%= j.description %></p>
+		<p><%= j.salary %></p>
+		<p><%= j.requirements %></p>
+		<p><%= j.link %></p>
 	<% end %>
 <% end %>
+<%= link_to 'Back to listings', companies_path %> |
+<% if user_signed_in? && current_user.role == "admin" %>
 <%= link_to 'Edit', edit_company_path(@company) %> |
-<%= link_to 'Back', companies_path %> |
 <%= link_to "Add a job", new_company_job_path(@company) %>
+<% end %>

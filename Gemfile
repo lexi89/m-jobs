@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'cancan', '~> 1.6', '>= 1.6.10'
+gem 'carrierwave'
 gem 'better_errors', '~> 2.1', '>= 2.1.1'
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
