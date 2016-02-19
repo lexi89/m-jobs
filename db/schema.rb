@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160218005924) do
+ActiveRecord::Schema.define(version: 20160218033916) do
 
   create_table "categories", force: :cascade do |t|
     t.string "name"
@@ -26,25 +26,25 @@ ActiveRecord::Schema.define(version: 20160218005924) do
     t.string   "name"
   end
 
-  create_table "company_industries", force: :cascade do |t|
+  create_table "companyindustries", force: :cascade do |t|
     t.integer "company_id"
     t.integer "industry_id"
   end
 
-  add_index "company_industries", ["company_id"], name: "index_company_industries_on_company_id"
-  add_index "company_industries", ["industry_id"], name: "index_company_industries_on_industry_id"
+  add_index "companyindustries", ["company_id"], name: "index_companyindustries_on_company_id"
+  add_index "companyindustries", ["industry_id"], name: "index_companyindustries_on_industry_id"
 
   create_table "industries", force: :cascade do |t|
     t.string "name"
   end
 
-  create_table "job_categories", force: :cascade do |t|
+  create_table "jobcategories", force: :cascade do |t|
     t.integer "job_id"
     t.integer "category_id"
   end
 
-  add_index "job_categories", ["category_id"], name: "index_job_categories_on_category_id"
-  add_index "job_categories", ["job_id"], name: "index_job_categories_on_job_id"
+  add_index "jobcategories", ["category_id"], name: "index_jobcategories_on_category_id"
+  add_index "jobcategories", ["job_id"], name: "index_jobcategories_on_job_id"
 
   create_table "jobs", force: :cascade do |t|
     t.datetime "created_at",   null: false

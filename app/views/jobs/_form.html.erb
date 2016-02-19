@@ -1,4 +1,4 @@
-<%= form_for @job, url: company_jobs_path do |f| %>
+<%= form_for @job, url: company_job_path(@job.company_id, @job) do |f| %>
   <% if @job.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@job.errors.count, "error") %> prohibited this job from being saved:</h2>
@@ -10,7 +10,7 @@
       </ul>
     </div>
   <% end %>
-    <%= f.collection_select(:company_id, Company.all, :id, :id) %>
+    <%= f.collection_select(:company_id, Company.all, :id, :name) %>
     <br>
     <%= f.label :title %>
     <%= f.text_field :title %>

@@ -1,5 +1,4 @@
 class CompaniesController < ApplicationController
-  load_and_authorize_resource
   before_action :set_company, only: [:show, :edit, :update, :destroy]
 
   # GET /companies
@@ -70,6 +69,6 @@ class CompaniesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def company_params
-      params.require(:company).permit(:mission, :description, :name)
+      params.require(:company).permit(:mission, :description, :name, :industry_ids)
     end
 end

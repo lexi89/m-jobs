@@ -1,0 +1,12 @@
+
+<h1> All <%= @industry.name %> Companies</h1>
+
+<% @companies.each do |c| %>
+	<h2><%= c.mission %></h2>
+	<h2><%= link_to "#{c.name}", company_path(c) %></h2>
+	<p>Todo: add company logo thumbnail</p>
+	<p><%= c.description %></p>
+	<p><%= pluralize(c.jobs.count, "job") %> </p>
+<% end %>
+
+<%= link_to "Back to listings", root_path %>

@@ -19,6 +19,7 @@ class JobsController < ApplicationController
 
   # GET /jobs/1/edit
   def edit
+      @company = Company.find(params[:company_id])
   end
 
   # POST /jobs
@@ -35,6 +36,11 @@ class JobsController < ApplicationController
   # PATCH/PUT /jobs/1
   # PATCH/PUT /jobs/1.json
   def update
+      if @job.update(job_params)
+        redirect_to company_path(@job.company_id), notice: 'Job was successfully updated.'
+      else
+        render "edit"
+      end
   end
 
   # DELETE /jobs/1

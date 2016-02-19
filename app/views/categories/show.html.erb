@@ -1,0 +1,20 @@
+<h1>All <%= @category.name %> jobs</h1>
+
+<% @jobs.each do |j| %>
+	<h3><% j.title %></h3>
+	<p>Mission: <%= j.company.mission %></p>
+	<p>Industry: 
+		<% j.company.industries.each do |i| %>
+			<%= link_to "#{i.name}", industry_path(i) %>
+		<% end %>
+	</p>
+	<p>Company: <%= link_to "#{j.company.name}", company_path(j.company_id) %></p>
+	<p>Todo: add company thumbnail</p>
+	<p>Description:<%= j.company.description %></p>
+	<p>Salary: $<%= j.salary %></p>
+	<p><%= link_to "Edit job", edit_company_job_path(j.company_id, j) %></p>
+
+<% end %>
+
+<%= link_to "All jobs", root_path %>
+

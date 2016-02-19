@@ -19,6 +19,9 @@
     <br>
     <%= f.label :description %>
     <%= f.text_area :description %>
+    <br>
+    <%= f.label :industry %>
+    <%= f.collection_select(:industry_ids, Industry.all, :id, :name) %>
     <p>To do: add image upload</p>
     <%= f.submit %>
 <% end %>

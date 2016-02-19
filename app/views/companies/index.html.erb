@@ -6,11 +6,16 @@
     
     <p>Add company logo</p>
     <p>Short description:<%= company.description %></p>
+    <p>Industry: 
+        <% company.industries.each do |i| %>
+            <%= link_to "#{i.name}", industry_path(i)%>
+        <% end %>
+     </p>
     
      <%= link_to 'Show', company %>
      <% if user_signed_in? && current_user.role == "admin" %>
 	 <%= link_to 'Edit', edit_company_path(company) %>
-     <%= link_to 'Destroy', company, method: :delete, data: { confirm: 'Are you sure?' } %>
+     <%= link_to 'Delete company', company, method: :delete, data: { confirm: 'Are you sure?' } %>
      <% end %>
 	<br>
 	<br>    

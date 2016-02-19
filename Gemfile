@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'pry', '~> 0.10.3'
 gem 'cancan', '~> 1.6', '>= 1.6.10'
 gem 'carrierwave'
 gem 'better_errors', '~> 2.1', '>= 2.1.1'
