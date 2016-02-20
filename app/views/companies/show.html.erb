@@ -16,10 +16,15 @@ Add company logo
 		<p>Categories: <% j.categories.each do |c| %>
 			<%= link_to "#{c.name}", category_path(c) %>
 			<% end %> </p>
+		<%= link_to "Edit job", edit_company_job_path(@company, j) %>
+		<hr>
 	<% end %>
 <% end %>
-<%= link_to 'Back to listings', companies_path %> |
 <% if user_signed_in? && current_user.role == "admin" %>
+<%= link_to 'Back to listings', companies_path %>
+<h4>Admin panel:</h4>
 <%= link_to 'Edit Company', edit_company_path(@company) %> |
 <%= link_to "Add a job", new_company_job_path(@company) %>
 <% end %>
+
+

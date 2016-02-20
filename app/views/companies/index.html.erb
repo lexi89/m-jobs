@@ -1,26 +1,26 @@
 <h1>All Missions:</h1>
 
     <% @companies.each do |company| %>
-    <h2><%= company.name %></h2>
-    <h3>Mission: <%= company.mission %></h3>
-    
-    <p>Add company logo</p>
-    <p>Short description:<%= company.description %></p>
-    <p>Industry: 
-        <% company.industries.each do |i| %>
-            <%= link_to "#{i.name}", industry_path(i)%>
-        <% end %>
-     </p>
-    
-     <%= link_to 'Show', company %>
-     <% if user_signed_in? && current_user.role == "admin" %>
-	 <%= link_to 'Edit', edit_company_path(company) %>
-     <%= link_to 'Delete company', company, method: :delete, data: { confirm: 'Are you sure?' } %>
+    <div class = "row">
+        <div class="plate">
+            <h4><%= link_to "#{company.name}", company_path(company) %></h4>
+            <h4>Mission: <%= company.mission %></h4>
+            <p>Add company logo</p>
+            <p>Short description:<%= company.description %></p>
+            <p>Industry: 
+                <% company.industries.each do |i| %>
+                    <%= link_to "#{i.name}", industry_path(i), class: "btn btn-sm btn-success" %>
+                <% end %>
+             </p>
+             <% if user_signed_in? && current_user.role == "admin" %>
+        	 <%= link_to "Edit '#{company.name}'", edit_company_path(company) %> |
+             <%= link_to "Delete '#{company.name}'", company, method: :delete, data: { confirm: 'Are you sure?' } %>
+        </div>     
+     </div>
      <% end %>
-	<br>
-	<br>    
+     <hr>
     <% end %>
 
 <% if user_signed_in? && current_user.role == "admin" %>
-<%= link_to 'New Company', new_company_path %>
+<%= link_to 'Add a new Company', new_company_path %>
 <% end %>

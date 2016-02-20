@@ -15,6 +15,7 @@ class JobsController < ApplicationController
   # GET /jobs/new
   def new
     @job = Job.new
+    @company = Company.find(params[:company_id])
   end
 
   # GET /jobs/1/edit

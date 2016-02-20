@@ -22,6 +22,7 @@
     <br>
     <%= f.label :industry %>
     <%= f.collection_select(:industry_ids, Industry.all, :id, :name) %>
+    <%= f.file_field :logo %>
     <p>To do: add image upload</p>
     <%= f.submit %>
 <% end %>
