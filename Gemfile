@@ -1,12 +1,13 @@
 source 'https://rubygems.org'
 
+gem 'sunspot_rails'
+gem 'sunspot', '~> 2.2', '>= 2.2.4'
 gem "mini_magick"
 gem 'carrierwave'
 gem 'bourbon'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'pry', '~> 0.10.3'
 gem 'cancan', '~> 1.6', '>= 1.6.10'
-gem 'carrierwave'
 gem 'better_errors', '~> 2.1', '>= 2.1.1'
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
