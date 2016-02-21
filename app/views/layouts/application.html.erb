@@ -9,13 +9,24 @@
 <body>
 	<div class="container-fluid wrapper">
 		<%= render 'layouts/navigation' %>
-
-			<div class="container">
-				<% if notice || alert %>
-					<p class="notice"><%= notice %></p>
-					<p class="alert"><%= alert %></p>
-				<% end %>
-				<%= yield %>
+			<div class="container nav-clear">
+				<div class="row">
+					
+					<div class="col-md-3">
+						<%= render 'layouts/profilelinks' %>
+						<%= render 'layouts/shortcuts' %>
+					</div>
+					
+					<div class="col-md-9">
+						<%= render 'layouts/searchbar'%>
+						<% if notice || alert %>
+							<p class="notice"><%= notice %></p>
+							<p class="alert"><%= alert %></p>
+						<% end %>
+						<%= yield %>
+					</div>
+				</div>
+				
 			</div>
 	</div>
 </body>

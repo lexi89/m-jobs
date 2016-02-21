@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem "mini_magick"
 gem 'carrierwave'
 gem 'bourbon'
 gem 'bootstrap-sass', '~> 3.3.6'

@@ -1,4 +1,4 @@
-<%= form_for(@company) do |f| %>
+<%= form_for @company, html: { multipart: true } do |f| %>
   <% if @company.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@company.errors.count, "error") %> prohibited this company from being saved:</h2>
@@ -22,6 +22,8 @@
     <br>
     <%= f.label :industry %>
     <%= f.collection_select(:industry_ids, Industry.all, :id, :name) %>
+    <br>
+    <%= f.label :logo %>
     <%= f.file_field :logo %>
     <p>To do: add image upload</p>
     <%= f.submit %>

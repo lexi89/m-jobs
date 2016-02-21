@@ -1,8 +1,8 @@
 <h1><%= @company.name %></h1>
-Add company logo
+
 <h2><%= @company.mission %></h2>
 <p><%= @company.description %></p>
-
+<%= image_tag(@company.logo.full) if @company.logo?%>
 <h2>Jobs:</h2>
 <% if (@company.jobs.count == 0) %>
 <p>No openings at <%= @company.name %></p>
