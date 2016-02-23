@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160218033916) do
+ActiveRecord::Schema.define(version: 20160223110802) do
 
   create_table "categories", force: :cascade do |t|
     t.string "name"
@@ -24,6 +24,9 @@ ActiveRecord::Schema.define(version: 20160218033916) do
     t.string   "description"
     t.string   "logo"
     t.string   "name"
+    t.string   "location"
+    t.string   "employees"
+    t.string   "url"
   end
 
   create_table "companyindustries", force: :cascade do |t|
@@ -55,6 +58,10 @@ ActiveRecord::Schema.define(version: 20160218033916) do
     t.string   "requirements"
     t.string   "link"
     t.integer  "company_id"
+    t.string   "location"
+    t.integer  "salarymin"
+    t.integer  "salarymax"
+    t.string   "jobtype"
   end
 
   add_index "jobs", ["company_id"], name: "index_jobs_on_company_id"

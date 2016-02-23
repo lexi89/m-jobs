@@ -1,4 +1,4 @@
-<%= form_for [@company, @job] do |f| %>
+<%= simple_form_for [@company, @job] do |f| %>
   <% if @job.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@job.errors.count, "error") %> prohibited this job from being saved:</h2>
@@ -10,24 +10,42 @@
       </ul>
     </div>
   <% end %>
-    <%= f.collection_select(:company_id, Company.all, :id, :name) %>
-    <br>
-    <%= f.label :title %>
-    <%= f.text_field :title %>
-    <br>
-
-    <%= f.label :description %>
-    <%= f.text_area :description %>
-    <br>
-    <%= f.label :salary_range %>
-    <%= f.number_field :salary %>
-    <br>
-    <%= f.label :requirements %>
-    <%= f.text_field :requirements %>
-    <br>
-    <%= f.label :application_url %>
-    <%= f.text_field :link %>
-    <br>
+    <div class="row">
+      <div class="col-md-3">
+        <%= f.input :company_id, collection: Company.all, label: "Company", value: :id%>
+      </div>
+    </div>    
+    <div class="row">
+      <div class="col-md-3">
+        <%= f.input :title %></div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <%= f.input :description, as: :text, placeholder: "The short description about the job. e.g. 'Looking for a talented full-stack developer to build a learning platform from scratch'" %></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <%= f.input :location, as: :country, label: "Job Location" %></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <%= f.input :jobtype, collection: ["Internship", "Contractor", "Maternity cover", "Part-time", "Full-time"], label: "Job Type" %></div>
+    </div>
+    <%= f.input :category_ids, as: :check_boxes, collection: Category.all, label: "Categories", value: :id %>
+    <label> Salary range</label>
+    <div class="row">
+      <div class="col-md-3">
+        From: <%= f.input :salarymin, label: false %></div>
+      <div class="col-md-3">
+        To: <%= f.input :salarymax, label: false %> </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <%= f.input :requirements, as: :text, placeholder: "The experience and skills required for the job" %></div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <%= f.input :link, label: "Link to application page" %></div>
+    </div>
     <%= f.submit %>
-
 <% end %>

@@ -1,4 +1,71 @@
-Details about the job here
+<div class="plate jobpage">
+	<h1 class = "center">
+		<%= image_tag(@job.company.logo.square) %> <br> <br>
+		<%=@job.title %> at <%= @job.company.name %> <br><small><%= @job.country_name%>, <%= @job.jobtype %></small>
+	</h1>
 
-<%= link_to 'Edit', edit_company_job_path(@job.company_id, @job) %> |
-<%= link_to 'Back', company_job_path(@job.company_id, @job) %>
+	<div class="row">
+		<div class="col-md-8">
+			<h2>Description:</h2>
+			<p><%= @job.description %></p>
+			<br>
+			<h2>Job requirements:</h2>
+			<p><%= @job.requirements %></p>
+			<br>
+			<h2><%= @job.company.name %>'s mission:</h2>
+			<p><%= @job.company.mission %> </p>
+		</div>
+		<div class="col-md-4">
+			<h4>Location <br>
+				<small><%= @job.country_name %></small></h4>
+			<h4>Salary <br>
+			<small><%= number_to_currency(@job.salary, precision: 0) %> </small></h4>
+			<h4>Job type<br>
+			<small><%= @job.jobtype %> </small></h4>
+			<%= link_to 'Edit job', edit_company_job_path(@job.company_id, @job) %> |
+			<%= link_to "Back to #{@job.company.name} page", company_path(@job.company_id) %>
+		</div>
+	</div>
+	<br>
+	<div class="row center">
+		<button class = "btn btn-lg btn-success">Apply now</button>
+	</div>
+	<hr>
+	<div class="row center">
+		<h2>Other vacancies at <%= @job.company.name %></h2>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Role</th>
+					<th>Location</th>
+					<th>Type</th>
+					<th>Category</th>
+					<th>Salary</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody style= "text-align: left;">
+				<% @job.company.jobs.each do |j| %>
+					<tr>
+						<td><%= link_to "#{j.title}", company_job_path(@job.company, j) %></td>
+						<td><%= j.country_name %></td>
+						<td><%= j.jobtype %></td>
+						<td><% j.categories.each do |c| %>
+							<%= link_to "#{c.name}", category_path(c) %>
+							<% end %> </p></td>
+						<td><%= number_to_currency(j.salary, precision: 0) %> </td>
+						<td>
+							<%= link_to "Apply", company_job_path(j.company, j), class: "btn btn-sm btn-success apply" %>
+						</td>
+						<% if user_signed_in? && current_user.role == "admin" %>
+			                 <td class = "pad">
+			                 	<%= link_to "Edit job", edit_company_job_path(j.company, j) %> 
+			                 </td>
+			            <% end %>
+					</tr>
+				<% end %>
+			</tbody>
+		</table>
+	</div>
+</div>
+

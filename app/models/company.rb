@@ -4,4 +4,13 @@ class Company < ActiveRecord::Base
 	has_many :companyindustries
 	has_many :industries, through: :companyindustries
 	accepts_nested_attributes_for :industries
+	searchable do 
+		text :name, :boost => 5
+		text :description
+	end
+
+	def country_name
+	    country = ISO3166::Country[location]
+	    country.translations[I18n.locale.to_s] || country.name
+	end
 end

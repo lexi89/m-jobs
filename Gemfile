@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
 
+gem 'countries'
+gem 'simple_form'
+gem 'country_select'
+gem 'jquery-turbolinks', '~> 2.1'
+gem 'font-awesome-sass'
 gem 'sunspot_rails'
 gem 'sunspot', '~> 2.2', '>= 2.2.4'
 gem "mini_magick"
@@ -44,6 +49,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+end
+
+group :development do
+    gem 'sunspot_solr'
 end
 
 group :development do

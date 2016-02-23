@@ -1,8 +1,7 @@
-<%= form_for @company, html: { multipart: true } do |f| %>
+<%= simple_form_for @company, html: { multipart: true } do |f| %>
   <% if @company.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@company.errors.count, "error") %> prohibited this company from being saved:</h2>
-
       <ul>
       <% @company.errors.full_messages.each do |message| %>
         <li><%= message %></li>
@@ -10,21 +9,13 @@
       </ul>
     </div>
   <% end %>
-
-    <%= f.label :name %>
-    <%= f.text_field :name %>
-    <br>
-    <%= f.label :mission %>
-    <%= f.text_field :mission %>
-    <br>
-    <%= f.label :description %>
-    <%= f.text_area :description %>
-    <br>
-    <%= f.label :industry %>
-    <%= f.collection_select(:industry_ids, Industry.all, :id, :name) %>
-    <br>
-    <%= f.label :logo %>
-    <%= f.file_field :logo %>
-    <br>
+    <%= f.input :name %>
+    <%= f.input :mission %>
+    <%= f.input :url %>
+    <%= f.input :description %>
+    <%= f.input :industry_ids, as: :check_boxes, collection: Industry.all, label: "Industries", value: :id %>
+    <%= f.input :location, as: :country, label: "HQ location" %>
+    <%= f.input :employees, collection: ["1-10", "11-50", "51-200", "200+"] %> 
+    <%= f.input :logo %>
     <%= f.submit %>
 <% end %>

@@ -1,30 +1,85 @@
-<h1><%= @company.name %></h1>
-
-<h2><%= @company.mission %></h2>
-<p><%= @company.description %></p>
-<%= image_tag(@company.logo.full) if @company.logo?%>
-<h2>Jobs:</h2>
-<% if (@company.jobs.count == 0) %>
-<p>No openings at <%= @company.name %></p>
-<% else %>
-	<% @company.jobs.each do |j| %> 
-		<h2><%= j.title %></h2>
-		<p><%= j.description %></p>
-		<p><%= j.salary %></p>
-		<p><%= j.requirements %></p>
-		<p><%= j.link %></p>
-		<p>Categories: <% j.categories.each do |c| %>
-			<%= link_to "#{c.name}", category_path(c) %>
-			<% end %> </p>
-		<%= link_to "Edit job", edit_company_job_path(@company, j) %>
-		<hr>
+<div class="plate company-page">
+	<div class="logo">
+		<%= image_tag(@company.logo.square) if @company.logo?%>
+	</div>
+	<div class="container jumbotron">
+		<h1><%= @company.name %></h1>
+		<p><%= @company.mission %></p>
+	</div>
+	<div class="row">
+		<div class="col-md-8 philosophy">
+			
+			<h2>About us</h2>
+			<p><%= @company.description %></p>
+			<br>
+			<h2>What we're making</h2>
+			<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptate illo nobis iusto labore iure ipsam neque, culpa autem itaque, quis, assumenda tempora. Consequatur voluptates non, facilis delectus, ratione cumque!</span>
+			<span>Quidem porro pariatur quo veritatis, odit repellendus nihil, eius quasi temporibus ad aliquam ullam nam? Voluptate officia blanditiis ea, assumenda modi obcaecati, rerum nobis. Suscipit tenetur necessitatibus, odio quo ad.</span>
+			<span>Cupiditate obcaecati distinctio nulla, ut, culpa ex enim repellendus, quod illum, praesentium expedita quibusdam nisi nostrum a harum eius. Et vitae qui earum, ab quaerat, tempore sequi provident eos est!</span></p>
+		</div>
+		<div class="col-md-4">
+			<h4>Industry:</h4>
+			<p><% @company.industries.each do |i| %>
+	                <li class = "nodec tag inline"><%= link_to "#{i.name}", industry_path(i)%></li>                     
+	            <% end %>
+	        </p>
+			<h4>Headquarters:</h4>
+			<p><%= @company.country_name %></p>
+			<h4>Employees:</h4>
+			<p><%= @company.employees %></p>
+			<h4>Website:</h4>
+			<p><%= link_to "#{@company.url}", @company.url %></p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Vacancies:</h2>
+	<% if (@company.jobs.count == 0) %>
+	<p>No vacancies at this time. Please check <%= @company.name %> link (ADD LINK HERE) for more details</p>
+	<% else %>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Role</th>
+				<th>Location</th>
+				<th>Type</th>
+				<th>Category</th>
+				<th>Salary</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<% @company.jobs.each do |j| %>
+				<tr>
+					<td><%= link_to "#{j.title}", company_job_path(@company, j) %></td>
+					<td><%= j.country_name %></td>
+					<td><%= j.jobtype %></td>
+					<td><% j.categories.each do |c| %>
+						<%= link_to "#{c.name}", category_path(c) %>
+						<% end %> </p></td>
+					<td><%= number_to_currency(j.salary, precision: 0) %> </td>
+					<td>
+						<%= link_to "Apply", company_job_path(@company, j), class: "btn btn-sm btn-success apply" %>
+					</td>
+					<% if user_signed_in? && current_user.role == "admin" %>
+		                 <td class = "pad">
+		                 	<%= link_to "Edit job", edit_company_job_path(@company, j) %> 
+		                 </td>
+		            <% end %>
+				</tr>
+			<% end %>
+		</tbody>
+	</table>
+		
 	<% end %>
-<% end %>
-<% if user_signed_in? && current_user.role == "admin" %>
-<%= link_to 'Back to listings', companies_path %>
-<h4>Admin panel:</h4>
-<%= link_to 'Edit Company', edit_company_path(@company) %> |
-<%= link_to "Add a job", new_company_job_path(@company) %>
-<% end %>
-
-
+		</div>
+	</div>
+	
+	<% if user_signed_in? && current_user.role == "admin" %>
+	<%= link_to 'Back to listings', companies_path %>
+	<h4>Admin panel:</h4>
+	<%= link_to 'Edit Company', edit_company_path(@company) %> |
+	<%= link_to "Add a job", new_company_job_path(@company) %>
+	<% end %>
+	
+	</div>

@@ -1,20 +1,30 @@
 <h1>All <%= @category.name %> jobs</h1>
 
 <% @jobs.each do |j| %>
-	<h3><% j.title %></h3>
-	<p>Mission: <%= j.company.mission %></p>
-	<p>Industry: 
-		<% j.company.industries.each do |i| %>
-			<%= link_to "#{i.name}", industry_path(i) %>
-		<% end %>
-	</p>
-	<p>Company: <%= link_to "#{j.company.name}", company_path(j.company_id) %></p>
-	<p>Todo: add company thumbnail</p>
-	<p>Description:<%= j.company.description %></p>
-	<p>Salary: $<%= j.salary %></p>
-	<p><%= link_to "Edit job", edit_company_job_path(j.company_id, j) %></p>
-
+    <div class="media plate">
+        <div class="media-left">
+            <div class="media-object">
+                <%= image_tag(j.company.logo.thumb) if j.company.logo?%>
+            </div>
+        </div>
+        <div class="media-body">
+            <div class="media-heading">
+                <h4><strong><%= link_to "#{j.title} at #{j.company.name}", company_path(j.company)%></strong></h4>
+            </div>
+            <p><em><%= j.company.mission%></em></p>
+            <div class="details">
+                <p>Short description: <%= j.company.description %></p>
+                <p>Industry: 
+                    <% j.company.industries.each do |i| %>
+                        <button class="tag"><%= link_to "#{i.name}", industry_path(i) %></button>
+                    <% end %>
+                </p>
+                <p>Vacancies: <%= j.company.jobs.count %></p>
+            </div>
+            <% if user_signed_in? && current_user.role == "admin" %>
+                 <p><%= link_to "Edit '#{j.company.name}'", edit_company_path(j.company) %> |
+                 <%= link_to "Delete '#{j.company.name}'", j.company, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+            <% end %>
+        </div>
+    </div>
 <% end %>
-
-<%= link_to "All jobs", root_path %>
-

@@ -8,25 +8,29 @@
 </head>
 <body>
 	<div class="container-fluid wrapper">
+		<% if notice %>
+			<div class="notice-wrapper">
+				<p class="notice"><%= notice %></p>
+			</div>	
+		<% elsif alert %>
+			<div class="notice-wrapper error">
+				<p class="alert"><%= alert %></p>
+			</div>
+		<% end %>
 		<%= render 'layouts/navigation' %>
 			<div class="container nav-clear">
 				<div class="row">
-					
-					<div class="col-md-3">
+					<div class="col-md-3 sidebar">
 						<%= render 'layouts/profilelinks' if user_signed_in? %>
 						<%= render 'layouts/shortcuts' %>
 					</div>
 					
 					<div class="col-md-9">
-						<% if notice || alert %>
-							<p class="notice"><%= notice %></p>
-							<p class="alert"><%= alert %></p>
-						<% end %>
 						<%= yield %>
 					</div>
 				</div>
-				
 			</div>
+		<%= render 'layouts/footer'	%>
 	</div>
 </body>
 </html>

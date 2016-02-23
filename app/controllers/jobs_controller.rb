@@ -38,7 +38,7 @@ class JobsController < ApplicationController
   # PATCH/PUT /jobs/1.json
   def update
       if @job.update(job_params)
-        redirect_to company_path(@job.company_id), notice: 'Job was successfully updated.'
+        redirect_to company_job_path(@job.company_id, @job), notice: 'Job was successfully updated.'
       else
         render "edit"
       end
@@ -58,6 +58,7 @@ class JobsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def job_params
-      params.require(:job).permit(:title, :description, :salary, :requirements, :link, :company_id)
+      params.require(:job).permit(:title, :description, :salary, :requirements, :link, :company_id, :location, 
+                                  :salarymin, :salarymax, :location, :jobtype, :category_ids => [])
     end
 end
