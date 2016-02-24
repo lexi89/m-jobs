@@ -6,7 +6,9 @@ class Company < ActiveRecord::Base
 	accepts_nested_attributes_for :industries
 	searchable do 
 		text :name, :boost => 5
-		text :description
+		text :industries do
+			industries.map { |industry| industry.name }
+		end
 	end
 
 	def country_name
