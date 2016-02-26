@@ -10,12 +10,12 @@
 		<div class="col-md-8 philosophy">
 			
 			<h2>About us</h2>
-			<p><%= @company.description %></p>
+				<p><%= @company.description %></p>
 			<br>
 			<h2>What we're making</h2>
-			<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptate illo nobis iusto labore iure ipsam neque, culpa autem itaque, quis, assumenda tempora. Consequatur voluptates non, facilis delectus, ratione cumque!</span>
-			<span>Quidem porro pariatur quo veritatis, odit repellendus nihil, eius quasi temporibus ad aliquam ullam nam? Voluptate officia blanditiis ea, assumenda modi obcaecati, rerum nobis. Suscipit tenetur necessitatibus, odio quo ad.</span>
-			<span>Cupiditate obcaecati distinctio nulla, ut, culpa ex enim repellendus, quod illum, praesentium expedita quibusdam nisi nostrum a harum eius. Et vitae qui earum, ab quaerat, tempore sequi provident eos est!</span></p>
+				<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptate illo nobis iusto labore iure ipsam neque, culpa autem itaque, quis, assumenda tempora. Consequatur voluptates non, facilis delectus, ratione cumque!</span>
+				<span>Quidem porro pariatur quo veritatis, odit repellendus nihil, eius quasi temporibus ad aliquam ullam nam? Voluptate officia blanditiis ea, assumenda modi obcaecati, rerum nobis. Suscipit tenetur necessitatibus, odio quo ad.</span>
+				<span>Cupiditate obcaecati distinctio nulla, ut, culpa ex enim repellendus, quod illum, praesentium expedita quibusdam nisi nostrum a harum eius. Et vitae qui earum, ab quaerat, tempore sequi provident eos est!</span></p>
 		</div>
 		<div class="col-md-4">
 			<h4>Industry:</h4>
@@ -29,6 +29,13 @@
 			<p><%= @company.employees %></p>
 			<h4>Website:</h4>
 			<p><%= link_to "#{@company.url}", @company.url %></p>
+			<div id="follow_form">
+				<% if current_user.following?(@company) %>
+					<%= render 'interests/unfollow' %>
+				<% else %>
+					<%= render 'interests/follow' %>
+				<% end %>
+			</div>
 		</div>
 	</div>
 	<div class="row">

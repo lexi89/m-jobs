@@ -1,0 +1,2 @@
+<p class = "mini"><%= link_to "#{company.jobs.first.title}", company_job_path(company, company.jobs.first.id) %> | <%= number_to_currency(company.jobs.first.salary, precision: 0) %> | <%= company.jobs.first.country_name %> </p>
+<p class = "mini"><%= link_to "#{company.jobs.second.title}", company_job_path(company, company.jobs.second.id) %> | <%= number_to_currency(company.jobs.second.salary, precision: 0) %> | <%= company.jobs.second.country_name %> </p>
