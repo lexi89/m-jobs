@@ -28,8 +28,11 @@ class JobsController < ApplicationController
   def create
     @job = Job.new(job_params)
     if @job.save
+      @job.company.followers.each do |follower|
+        UserMailer.delay.new_job(follower.email, @job.company, @job)
+      end
       redirect_to company_path(params[:company_id])
-    else 
+    else
       render "new"
     end
   end
@@ -58,7 +61,7 @@ class JobsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def job_params
-      params.require(:job).permit(:title, :description, :salary, :requirements, :link, :company_id, :location, 
+      params.require(:job).permit(:title, :description, :salary, :requirements, :link, :company_id, :location,
                                   :salarymin, :salarymax, :location, :jobtype, :category_ids => [])
     end
 end

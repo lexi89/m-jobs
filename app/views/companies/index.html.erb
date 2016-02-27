@@ -11,17 +11,17 @@
                 <h4><strong><%= link_to "#{company.name}", company_path(company)%></strong></h4>
             </div>
             <p><em><%= company.mission%></em></p>
-            <p><% company.industries.each do |i| %>
-                            <li class = "nodec tag inline"><%= link_to "#{i.name}", industry_path(i)%></li>                     
-                        <% end %>
-                    </p>
-                </p>
+            <p>
+            <% company.industries.each do |i| %>
+              <li class = "nodec tag inline"><%= link_to "#{i.name}", industry_path(i)%></li>
+            <% end %>
+            </p>
             <% if company.jobs.count >= 2 %>
                 <%= render "minijobs", company: company %>
-            <% end %> 
+            <% end %>
             <div class="details">
                 <hr id = "dark">
-                <h4>About us:</h4> 
+                <h4>About us:</h4>
                 <p><%= company.description %></p>
             </div>
             <% if user_signed_in? && current_user.role == "admin" %>

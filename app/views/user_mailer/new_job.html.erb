@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hi, <%= @email %>!</h1>
+    <p>
+      <%= @company.name %> has a new opening:
+        <%= @job.title %>
+        <%= link_to "Click here to check it out", company_job_url(@company.id, @job.id) %>
+    </p>
+    <p>Have a great day!</p>
+  </body>
+</html>

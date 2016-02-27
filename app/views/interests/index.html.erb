@@ -14,7 +14,6 @@
             <p><em><%= company.mission%></em></p>
             <p><% company.industries.each do |i| %>
                     <li class = "nodec tag inline"><%= link_to "#{i.name}", industry_path(i)%></li>
-
                 <% end %></p>
             <%= render "companies/minijobs", company: company if company.jobs.count >= 2 %>
             <div class="details">
