@@ -1,4 +1,4 @@
-<p class = "mini"><%= link_to "#{company.jobs.first.title}", company_job_path(company, company.jobs.first.id) %>
+<p class = "mini"><%= link_to "#{company.jobs.first.title}", company_job_path(company, company.jobs.first.id), class: "silent" %>
                       | up to <%= number_to_human(company.jobs.first.salarymin, precision: 2,
                                                                   separator: '.',
                                                                   significant: true, units: { thousand: "k"})%>

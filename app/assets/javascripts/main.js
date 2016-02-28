@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	
+
 	setTimeout(function(){
 		$(".notice-wrapper").fadeOut("slow", function() {
 			$(this).remove();
@@ -10,7 +10,8 @@ $(document).ready(function(){
 		$(this).toggleClass("listing-hover");
 	});
 
-	$(".media").click(function(){
+	$(".media").click(function(e){
+		if(e.target.className == "silent") return;
 		$(this).find(".details").toggle();
 	});
 
@@ -18,9 +19,9 @@ $(document).ready(function(){
 		$(this).toggleClass("active");
 	});
 
+
 	$(".sidebar-button").click(function(){
 		window.location = $(this).find("a").attr("href");
 		return false;
 	});
 });
- 
