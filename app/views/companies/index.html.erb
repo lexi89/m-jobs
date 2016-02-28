@@ -10,7 +10,7 @@
             <div class="media-heading">
                 <h4><strong><%= link_to "#{company.name}", company_path(company)%></strong></h4>
             </div>
-            <p><em><%= company.mission%></em></p>
+            <p>Mission: <em><%= company.mission%></em></p>
             <p>
             <% company.industries.each do |i| %>
               <li class = "nodec tag inline"><%= link_to "#{i.name}", industry_path(i)%></li>

@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+  mount_uploader :image, ImageUploader
   ROLES = %w[admin user]
   has_many :interests, foreign_key: "follower_id", dependent: :destroy
   has_many :following, through: :interests, source: :followed

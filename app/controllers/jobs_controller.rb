@@ -18,9 +18,8 @@ class JobsController < ApplicationController
     @company = Company.find(params[:company_id])
   end
 
-  # GET /jobs/1/edit
   def edit
-      @company = Company.find(params[:company_id])
+    @company = Company.find(params[:company_id])
   end
 
   # POST /jobs
@@ -28,9 +27,9 @@ class JobsController < ApplicationController
   def create
     @job = Job.new(job_params)
     if @job.save
-      @job.company.followers.each do |follower|
-        UserMailer.delay.new_job(follower.email, @job.company, @job)
-      end
+      # @job.company.followers.each do |follower|
+      #   UserMailer.delay.new_job(follower.email, @job.company, @job)
+      # end
       redirect_to company_path(params[:company_id])
     else
       render "new"
@@ -40,6 +39,7 @@ class JobsController < ApplicationController
   # PATCH/PUT /jobs/1
   # PATCH/PUT /jobs/1.json
   def update
+    @company = Company.find(params[:company_id])
       if @job.update(job_params)
         redirect_to company_job_path(@job.company_id, @job), notice: 'Job was successfully updated.'
       else

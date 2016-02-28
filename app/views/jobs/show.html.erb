@@ -19,7 +19,12 @@
 			<h4>Location <br>
 				<small><%= @job.country_name %></small></h4>
 			<h4>Salary <br>
-			<small><%= number_to_currency(@job.salary, precision: 0) %> </small></h4>
+			<small><%= number_to_human(@job.salarymin, precision: 2,
+										separator: '.',
+										significant: true, units: { thousand: "k"}) %> to
+						<%= number_to_human(@job.salarymax, precision: 2,
+													separator: '.',
+													significant: true, units: { thousand: "k"}) %></small></h4>
 			<h4>Job type<br>
 			<small><%= @job.jobtype %> </small></h4>
 			<%= link_to 'Edit job', edit_company_job_path(@job.company_id, @job) %> |
@@ -53,13 +58,18 @@
 						<td><% j.categories.each do |c| %>
 							<%= link_to "#{c.name}", category_path(c) %>
 							<% end %> </p></td>
-						<td><%= number_to_currency(j.salary, precision: 0) %> </td>
+						<td><%= number_to_human(j.salarymin, precision: 2,
+	                        separator: ',',
+	                        significant: true, units: { thousand: "k"}) %> to
+									<%= number_to_human(j.salarymax, precision: 2,
+				                        separator: ',',
+				                        significant: true, units: { thousand: "k"}) %></td>
 						<td>
 							<%= link_to "Apply", company_job_path(j.company, j), class: "btn btn-sm btn-success apply" %>
 						</td>
 						<% if user_signed_in? && current_user.role == "admin" %>
 			                 <td class = "pad">
-			                 	<%= link_to "Edit job", edit_company_job_path(j.company, j) %> 
+			                 	<%= link_to "Edit job", edit_company_job_path(j.company, j) %>
 			                 </td>
 			            <% end %>
 					</tr>
@@ -68,4 +78,3 @@
 		</table>
 	</div>
 </div>
-

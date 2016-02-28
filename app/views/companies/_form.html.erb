@@ -15,7 +15,7 @@
     <%= f.input :description %>
     <%= f.input :industry_ids, as: :check_boxes, collection: Industry.all, label: "Industries", value: :id %>
     <%= f.input :location, as: :country, label: "HQ location" %>
-    <%= f.input :employees, collection: ["1-10", "11-50", "51-200", "200+"] %> 
+    <%= f.input :employees, collection: ["1-10", "11-50", "51-200", "200+"] %>
     <%= f.input :logo %>
     <%= f.submit %>
 <% end %>

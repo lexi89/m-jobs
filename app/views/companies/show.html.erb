@@ -1,14 +1,15 @@
 <div class="plate company-page">
-	<div class="logo">
-		<%= image_tag(@company.logo.square) if @company.logo?%>
-	</div>
+
 	<div class="container jumbotron">
+		<div class="logo">
+			<%= image_tag(@company.logo.square) if @company.logo?%>
+		</div>
 		<h1><%= @company.name %></h1>
-		<p><%= @company.mission %></p>
+		<p>Mission: <%= @company.mission %></p>
 	</div>
 	<div class="row">
 		<div class="col-md-8 philosophy">
-			
+
 			<h2>About us</h2>
 				<p><%= @company.description %></p>
 			<br>
@@ -20,7 +21,7 @@
 		<div class="col-md-4">
 			<h4>Industry:</h4>
 			<p><% @company.industries.each do |i| %>
-	                <li class = "nodec tag inline"><%= link_to "#{i.name}", industry_path(i)%></li>                     
+	                <li class = "nodec tag inline"><%= link_to "#{i.name}", industry_path(i)%></li>
 	            <% end %>
 	        </p>
 			<h4>Headquarters:</h4>
@@ -62,31 +63,36 @@
 					<td><%= j.country_name %></td>
 					<td><%= j.jobtype %></td>
 					<td><% j.categories.each do |c| %>
-						<%= link_to "#{c.name}", category_path(c) %>
-						<% end %> </p></td>
-					<td><%= number_to_currency(j.salary, precision: 0) %> </td>
+								<%= link_to "#{c.name}", category_path(c) %>
+							<% end %> </p></td>
+					<td> <%= number_to_human(j.salarymin, precision: 2,
+                        separator: '.',
+                        significant: true, units: { thousand: "k"}) %> to
+								<%= number_to_human(j.salarymax, precision: 2,
+			                        separator: '.',
+			                        significant: true, units: { thousand: "k"}) %> </td>
 					<td>
 						<%= link_to "Apply", company_job_path(@company, j), class: "btn btn-sm btn-success apply" %>
 					</td>
 					<% if user_signed_in? && current_user.role == "admin" %>
 		                 <td class = "pad">
-		                 	<%= link_to "Edit job", edit_company_job_path(@company, j) %> 
+		                 	<%= link_to "Edit job", edit_company_job_path(@company, j) %>
 		                 </td>
 		            <% end %>
 				</tr>
 			<% end %>
 		</tbody>
 	</table>
-		
+
 	<% end %>
 		</div>
 	</div>
-	
+
 	<% if user_signed_in? && current_user.role == "admin" %>
 	<%= link_to 'Back to listings', companies_path %>
 	<h4>Admin panel:</h4>
 	<%= link_to 'Edit Company', edit_company_path(@company) %> |
 	<%= link_to "Add a job", new_company_job_path(@company) %>
 	<% end %>
-	
+
 	</div>
