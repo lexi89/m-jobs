@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <div class="center">
+      <h1 class = "center"><%= @user.firstname + " " + @user.surname %> </h1> <br>
+      <%= image_tag @user.image%> <br><br>
+        <%= link_to "Edit profile", edit_user_registration_path(@user), class: "center" %>
+    </div>
+  </div>
+</div>
+<hr id = "dark">
+<div class="row">
+  <div class="col-md-6 white">
+    <h2>Bio</h2>
+    <%= @user.bio %>
+  </div>
+</div>

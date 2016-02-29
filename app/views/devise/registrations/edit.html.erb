@@ -5,7 +5,8 @@
 
   <div class="form-inputs">
     <%= f.input :email, required: true %>
-    <%= f.input :name, required: true, autofocus: true, input_html: {class: "small"}  %>
+    <%= f.input :firstname, required: true, autofocus: true, input_html: {class: "small"}  %>
+    <%= f.input :surname, required: true, autofocus: true, input_html: {class: "small"}  %>
     <%= f.input :bio, hint: "This will be the first thing an employer will see. Make it to the point and no longer than a tweet",
                       input_html: {class: "small"} %>
     <%= f.input :image %>
