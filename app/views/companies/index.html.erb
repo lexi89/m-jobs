@@ -11,19 +11,21 @@
                 <h4><strong><%= link_to "#{company.name}", company_path(company), class: "silent" %></strong></h4>
             </div>
             <p>Mission: <em><%= company.mission%></em></p>
-            <p>
-            <% company.industries.each do |i| %>
+
+            <p><% company.industries.each do |i| %>
               <li class = "nodec tag inline silent"><%= link_to "#{i.name}", industry_path(i), class: "silent"%></li>
-            <% end %>
-            </p>
+            <% end %></p>
+
             <% if company.jobs.count >= 2 %>
                 <%= render "minijobs", company: company %>
             <% end %>
+
             <div class="details silent">
                 <hr id = "dark">
                 <h4 class = "silent">About us:</h4>
                 <p class = "silent"><%= company.description %></p>
             </div>
+
             <% if user_signed_in? && current_user.role == "admin" %>
                  <p><%= link_to "Edit '#{company.name}'", edit_company_path(company) %> |
                  <%= link_to "Delete '#{company.name}'", company, method: :delete, data: { confirm: 'Are you sure?' } %></p>

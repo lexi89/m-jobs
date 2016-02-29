@@ -1,0 +1,38 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Role</th>
+      <th>Location</th>
+      <th>Type</th>
+      <th>Category</th>
+      <th>Salary</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% company.jobs.each do |j| %>
+      <tr>
+        <td><%= link_to "#{j.title}", company_job_path(company, j) %></td>
+        <td><%= j.country_name %></td>
+        <td><%= j.jobtype %></td>
+        <td><% j.categories.each do |c| %>
+              <%= link_to "#{c.name}", category_path(c) %>
+            <% end %> </p></td>
+        <td> <%= number_to_human(j.salarymin, precision: 2,
+                      separator: '.',
+                      significant: true, units: { thousand: "k"}) %> to
+              <%= number_to_human(j.salarymax, precision: 2,
+                            separator: '.',
+                            significant: true, units: { thousand: "k"}) %> </td>
+        <td>
+          <%= link_to "Apply", company_job_path(company, j), class: "btn btn-sm btn-success apply" %>
+        </td>
+        <% if user_signed_in? && current_user.role == "admin" %>
+                   <td class = "pad">
+                    <%= link_to "Edit job", edit_company_job_path(company, j) %>
+                   </td>
+              <% end %>
+      </tr> <!-- close jobs row -->
+    <% end %> <!-- end jobs loop -->
+  </tbody>
+</table> <!-- close table -->

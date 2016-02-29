@@ -55,8 +55,6 @@ class CompaniesController < ApplicationController
     end
   end
 
-  # DELETE /companies/1
-  # DELETE /companies/1.json
   def destroy
     @company.destroy
     respond_to do |format|

@@ -38,63 +38,24 @@
 						<%= render 'interests/follow' %>
 					<% end %>
 				</div>
-			<% end %>	
+			<% end %>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-12">
-			<h2>Vacancies:</h2>
-	<% if (@company.jobs.count == 0) %>
-	<p>No vacancies at this time. Please check <%= @company.name %> link (ADD LINK HERE) for more details</p>
-	<% else %>
-	<table class="table">
-		<thead>
-			<tr>
-				<th>Role</th>
-				<th>Location</th>
-				<th>Type</th>
-				<th>Category</th>
-				<th>Salary</th>
-				<th></th>
-			</tr>
-		</thead>
-		<tbody>
-			<% @company.jobs.each do |j| %>
-				<tr>
-					<td><%= link_to "#{j.title}", company_job_path(@company, j) %></td>
-					<td><%= j.country_name %></td>
-					<td><%= j.jobtype %></td>
-					<td><% j.categories.each do |c| %>
-								<%= link_to "#{c.name}", category_path(c) %>
-							<% end %> </p></td>
-					<td> <%= number_to_human(j.salarymin, precision: 2,
-                        separator: '.',
-                        significant: true, units: { thousand: "k"}) %> to
-								<%= number_to_human(j.salarymax, precision: 2,
-			                        separator: '.',
-			                        significant: true, units: { thousand: "k"}) %> </td>
-					<td>
-						<%= link_to "Apply", company_job_path(@company, j), class: "btn btn-sm btn-success apply" %>
-					</td>
-					<% if user_signed_in? && current_user.role == "admin" %>
-		                 <td class = "pad">
-		                 	<%= link_to "Edit job", edit_company_job_path(@company, j) %>
-		                 </td>
-		            <% end %>
-				</tr>
-			<% end %>
-		</tbody>
-	</table>
-
-	<% end %>
+	  <div class="col-md-12">
+	    <h2>Vacancies:</h2>
+	      <% if (@company.jobs.count == 0) %>
+	        <p>No vacancies at this time. Please check <%= @company.name %> link (ADD LINK HERE) for more details</p>
+	      <% else %>
+					<%= render "shared/jobtable", company: @company %>
+				<% end %>
 		</div>
 	</div>
-
 	<% if user_signed_in? && current_user.role == "admin" %>
-	<%= link_to 'Back to listings', companies_path %>
-	<h4>Admin panel:</h4>
-	<%= link_to 'Edit Company', edit_company_path(@company) %> |
-	<%= link_to "Add a job", new_company_job_path(@company) %>
+		<%= link_to 'Back to listings', companies_path %>
+		<h4>Admin panel:</h4>
+		<%= link_to 'Edit Company', edit_company_path(@company) %> |
+		<%= link_to "Add a job", new_company_job_path(@company) %>
 	<% end %>
 
-	</div>
+</div>

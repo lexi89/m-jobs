@@ -14,7 +14,7 @@
             <p><em><%= j.company.mission%></em></p>
             <div class="details">
                 <p>Short description: <%= j.company.description %></p>
-                <p>Industry: 
+                <p>Industry:
                     <% j.company.industries.each do |i| %>
                         <button class="tag"><%= link_to "#{i.name}", industry_path(i) %></button>
                     <% end %>

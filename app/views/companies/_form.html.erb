@@ -6,17 +6,7 @@
 <% end %>
 
 <%= simple_form_for @company, html: { multipart: true } do |f| %>
-  <% if @company.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@company.errors.count, "error") %> prohibited this company from being saved:</h2>
-      <ul>
-      <% @company.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-
+<%= f.error_notification %>
     <br>
     <%= f.input :name %>
     <%= f.input :mission %>

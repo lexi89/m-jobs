@@ -1,10 +1,19 @@
-<p class = "mini"><%= link_to "#{company.jobs.first.title}", company_job_path(company, company.jobs.first.id), class: "silent" %>
-                      | up to <%= number_to_human(company.jobs.first.salarymin, precision: 2,
-                                                                  separator: '.',
-                                                                  significant: true, units: { thousand: "k"})%>
-                      | <%= company.jobs.first.country_name %> </p>
-<p class = "mini"><%= link_to "#{company.jobs.second.title}", company_job_path(company, company.jobs.second.id) %>
-                  | up to <%= number_to_human(company.jobs.second.salarymin, precision: 2,
-                                                              separator: '.',
-                                                              significant: true, units: { thousand: "k"})%>
-                  | <%= company.jobs.second.country_name %> </p>
+<p class = "mini">
+  <%= link_to "#{company.jobs.first.title}", company_job_path(company, company.jobs.first.id), class: "silent" %>
+      | up to
+      <%= number_to_human(company.jobs.first.salarymin,
+                          precision: 2,
+                          separator: '.',
+                          significant: true,
+                          units: { thousand: "k"})%>
+          | <%= company.jobs.first.country_name %> </p>
+          
+<p class = "mini">
+  <%= link_to "#{company.jobs.second.title}", company_job_path(company, company.jobs.second.id) %>
+      | up to
+      <%= number_to_human(company.jobs.second.salarymin,
+                          precision: 2,
+                          separator: '.',
+                          significant: true,
+                          units: { thousand: "k"})%>
+          | <%= company.jobs.second.country_name %> </p>

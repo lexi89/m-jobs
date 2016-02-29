@@ -23,16 +23,13 @@ class Company < ActiveRecord::Base
 
 	def self.import(file)
 		CSV.foreach(file.path, headers: true) do |row|
-			company_hash = {:mission => row["mission"], :description => row["description"],
+			company_hash = {:id => row["id"], :mission => row["mission"], :description => row["description"],
 											:remote_logo_url => row["logo"], :name => row["name"], :location => row["location"],
 											:employees => row["employees"], :url => row["url"]}
-			company = Company.where(id: company_hash[:id])
-			if company.count == 1
-				company.first.update_attributes(company_hash)
-			else
-				Company.create(company_hash)
-			end
+			company = Company.find_by(name: company_hash[:name]) || new
+			company.attributes = company_hash.slice(:mission, :description, :remote_logo_url, :name, :location,
+																								:employees, :url)
+			company.save!
 		end
-
 	end
 end
