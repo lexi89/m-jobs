@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resources :categories, only: [:show, :edit, :update, :destroy]
   resources :companies do
     resources :jobs, except: [:index]
+    collection { post :import }
   end
   resources :interests, only: [:index, :create, :destroy]
 

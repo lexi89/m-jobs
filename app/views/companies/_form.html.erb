@@ -1,3 +1,10 @@
+<h3>Mass upload / edit (.csv)</h3>
+<%= form_tag import_companies_path, multipart: true, method: :post, action: :import do %>
+  <%= file_field_tag :file %>
+  <br>
+  <%= submit_tag :import%>
+<% end %>
+
 <%= simple_form_for @company, html: { multipart: true } do |f| %>
   <% if @company.errors.any? %>
     <div id="error_explanation">
@@ -9,6 +16,8 @@
       </ul>
     </div>
   <% end %>
+
+    <br>
     <%= f.input :name %>
     <%= f.input :mission %>
     <%= f.input :url %>

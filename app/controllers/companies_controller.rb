@@ -1,6 +1,16 @@
 class CompaniesController < ApplicationController
   before_action :set_company, only: [:show, :edit, :update, :destroy]
 
+  def import
+    @company = Company.new
+    begin
+      Company.import(params[:file])
+      redirect_to root_path, notice: "Companies successfully imported"
+    rescue
+      redirect_to root_path, notice: "Invalid CSV"
+    end
+  end
+
   def index
     @search = Company.search do
       fulltext params[:search]
@@ -15,12 +25,9 @@ class CompaniesController < ApplicationController
     @company = Company.new
   end
 
-  # GET /companies/1/edit
   def edit
   end
 
-  # POST /companies
-  # POST /companies.json
   def create
     @company = Company.new(company_params)
     respond_to do |format|
@@ -59,12 +66,10 @@ class CompaniesController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
     def set_company
       @company = Company.find(params[:id])
     end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
     def company_params
       params.require(:company).permit(:mission, :description, :name, :logo, :location, :url, :employees, :industry_ids => [])
     end
