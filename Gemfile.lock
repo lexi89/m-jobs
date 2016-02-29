@@ -91,6 +91,8 @@ GEM
     execjs (2.6.0)
     faker (1.6.1)
       i18n (~> 0.5)
+    figaro (1.1.1)
+      thor (~> 0.14)
     font-awesome-sass (4.5.0)
       sass (>= 3.2)
     git-version-bump (0.15.1)
@@ -240,6 +242,7 @@ DEPENDENCIES
   country_select
   devise
   faker
+  figaro
   font-awesome-sass
   jbuilder (~> 2.0)
   jquery-rails
