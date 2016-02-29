@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'faker'
 gem 'sidekiq'
 gem 'countries'
 gem 'simple_form'
