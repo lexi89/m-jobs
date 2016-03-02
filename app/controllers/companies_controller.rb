@@ -19,6 +19,13 @@ class CompaniesController < ApplicationController
     @companies = @search.results
   end
 
+  def claim
+    @company = Company.find(params[:company_id])
+    @user = current_user
+    @user.claim(@company)
+    redirect_to @company
+  end
+
   def show
   end
 

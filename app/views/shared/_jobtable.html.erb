@@ -27,7 +27,7 @@
         <td>
           <%= link_to "Apply", company_job_path(company, j), class: "btn btn-sm btn-success apply" %>
         </td>
-        <% if user_signed_in? && current_user.role == "admin" %>
+        <% if (user_signed_in? && current_user.role == "admin") || company.users.include?(current_user) %>
                    <td class = "pad">
                     <%= link_to "Edit job", edit_company_job_path(company, j) %>
                    </td>

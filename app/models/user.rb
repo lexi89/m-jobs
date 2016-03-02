@@ -4,6 +4,8 @@ class User < ActiveRecord::Base
   has_many :userskills
   has_many :skills, through: :userskills
   accepts_nested_attributes_for :skills
+  has_many :admins, dependent: :destroy
+  has_many :companies, through: :admins
   has_many :interests, foreign_key: "follower_id", dependent: :destroy
   has_many :following, through: :interests, source: :followed
   # Include default devise modules. Others available are:
@@ -21,6 +23,10 @@ class User < ActiveRecord::Base
 
   def following?(company)
   	following.include?(company)
+  end
+
+  def claim(company)
+    admins.create(company_id: company.id)
   end
 
 end

@@ -13,7 +13,7 @@
 			<h2>About us</h2>
 				<p><%= @company.description %></p>
 			<br>
-			<h2>What we're making</h2>
+			<h2>TO DO (What We're making)</h2>
 				<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptate illo nobis iusto labore iure ipsam neque, culpa autem itaque, quis, assumenda tempora. Consequatur voluptates non, facilis delectus, ratione cumque!</span>
 				<span>Quidem porro pariatur quo veritatis, odit repellendus nihil, eius quasi temporibus ad aliquam ullam nam? Voluptate officia blanditiis ea, assumenda modi obcaecati, rerum nobis. Suscipit tenetur necessitatibus, odio quo ad.</span>
 				<span>Cupiditate obcaecati distinctio nulla, ut, culpa ex enim repellendus, quod illum, praesentium expedita quibusdam nisi nostrum a harum eius. Et vitae qui earum, ab quaerat, tempore sequi provident eos est!</span></p>
@@ -38,6 +38,9 @@
 						<%= render 'interests/follow' %>
 					<% end %>
 				</div>
+				<br>
+					<%= link_to "Claim #{@company.name}", company_claim_path(@company), method: :post if @company.users.exclude?(current_user) %>
+					<%= link_to "Edit #{@company.name}", edit_company_path(@company) if @company.users.include?(current_user) %>
 			<% end %>
 		</div>
 	</div>
@@ -51,12 +54,7 @@
 				<% end %>
 		</div>
 	</div>
-	<% if user_signed_in? && current_user.role == "admin" %>
-		<%= link_to 'Back to listings', companies_path %>
-		<h4>Admin panel:</h4>
-		<%= link_to "Delete #{@company.name}", company_path(@company), method: :delete %> |
-		<%= link_to "Edit #{@company.name}", edit_company_path(@company) %> |
-		<%= link_to "Add a job", new_company_job_path(@company) %>
+	<% if (user_signed_in? && current_user.role == "admin") || @company.users.include?(current_user) %>
+		<%= link_to "Add a new job", new_company_job_path(@company) %> |
 	<% end %>
-
 </div>

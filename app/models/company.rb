@@ -7,6 +7,8 @@ class Company < ActiveRecord::Base
 	has_many :companyindustries
 	has_many :industries, through: :companyindustries
 	accepts_nested_attributes_for :industries
+	has_many :admins, dependent: :destroy
+	has_many :users, through: :admins
 	has_many :interests, foreign_key: "followed_id", dependent: :destroy
 	has_many :followers, through: :interests
 	searchable do
