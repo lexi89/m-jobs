@@ -1,4 +1,5 @@
 class CompaniesController < ApplicationController
+  autocomplete :company, :name
   before_action :set_company, only: [:show, :edit, :update, :destroy]
 
   def import

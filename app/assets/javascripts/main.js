@@ -4,7 +4,7 @@ $(document).ready(function(){
 		$(".notice-wrapper").fadeOut("slow", function() {
 			$(this).remove();
 		});
-	}, 4000);
+	}, 1000);
 
 	$(".media").hover(function(){
 		$(this).toggleClass("listing-hover");

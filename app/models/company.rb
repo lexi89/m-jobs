@@ -14,6 +14,8 @@ class Company < ActiveRecord::Base
 		text :industries do
 			industries.map { |industry| industry.name }
 		end
+		text :mission
+		text :description
 	end
 
 	def country_name

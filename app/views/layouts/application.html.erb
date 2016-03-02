@@ -2,8 +2,11 @@
 <html>
 <head>
   <title>Jobs</title>
+  <%= javascript_include_tag "autocomplete-rails.js" %>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -11,7 +14,7 @@
 		<% if notice %>
 			<div class="notice-wrapper">
 				<p class="notice"><%= notice %></p>
-			</div>	
+			</div>
 		<% elsif alert %>
 			<div class="notice-wrapper error">
 				<p class="alert"><%= alert %></p>
@@ -24,7 +27,7 @@
 						<%= render 'layouts/profilelinks' if user_signed_in? %>
 						<%= render 'layouts/shortcuts' %>
 					</div>
-					
+
 					<div class="col-md-9">
 						<%= yield %>
 					</div>

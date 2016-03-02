@@ -18,7 +18,7 @@
             <%= render "companies/minijobs", company: company if company.jobs.count >= 2 %>
             <div class="details">
                 <hr id = "dark">
-                <h4>About us:</h4> 
+                <h4>About us:</h4>
                 <p><%= company.description %></p>
             </div>
             <% if user_signed_in? && current_user.role == "admin" %>

@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'rails-jquery-autocomplete'
+gem 'jquery-ui-rails'
 gem 'figaro'
 gem 'faker'
 gem 'sidekiq'

@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   resources :companies do
     resources :jobs, except: [:index]
     collection { post :import }
+    get :autocomplete_company_name, on: :collection
   end
   resources :interests, only: [:index, :create, :destroy]
 end
