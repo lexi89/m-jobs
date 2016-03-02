@@ -5,6 +5,8 @@ class Job < ActiveRecord::Base
 	belongs_to :company
 	has_many :jobcategories
 	has_many :categories, through: :jobcategories
+	has_many :jobreqs
+	has_many :reqs, through: :jobreqs
 
 	def country_name
 	    country = ISO3166::Country[location]

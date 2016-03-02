@@ -1,6 +1,9 @@
 class User < ActiveRecord::Base
   mount_uploader :image, ImageUploader
   ROLES = %w[admin user]
+  has_many :userskills
+  has_many :skills, through: :userskills
+  accepts_nested_attributes_for :skills
   has_many :interests, foreign_key: "follower_id", dependent: :destroy
   has_many :following, through: :interests, source: :followed
   # Include default devise modules. Others available are:

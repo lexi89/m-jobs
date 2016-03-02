@@ -9,8 +9,12 @@
 </div>
 <hr id = "dark">
 <div class="row">
-  <div class="col-md-6 white">
+  <div class="col-md-12 white">
     <h2>Bio</h2>
-    <%= @user.bio %>
+      <p><%= @user.bio %></p>
+    <h2>Skills</h2>
+      <% @user.skills.each do |s| %>
+        <p><%= s.name %></p>
+      <% end %>
   </div>
 </div>

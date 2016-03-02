@@ -22,6 +22,7 @@
         <%= f.input :jobtype, collection: ["Internship", "Contractor", "Maternity cover", "Part-time", "Full-time"], label: "Job Type" %></div>
     </div>
     <%= f.input :category_ids, as: :check_boxes, collection: Category.all, label: "Categories", value: :id %>
+    <%= f.input :req_ids, as: :check_boxes, collection: Req.all, label: "Skills required", value: :id %>
     <label> Salary range</label>
     <br>
     <div class="row">

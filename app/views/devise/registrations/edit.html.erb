@@ -10,6 +10,7 @@
     <%= f.input :bio, hint: "This will be the first thing an employer will see. Make it to the point and no longer than a tweet",
                       input_html: {class: "small"} %>
     <%= f.input :image %>
+    <%= f.input :skill_ids, as: :check_boxes, collection: Skill.all, label: "Skills", value: :id %>
     <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
       <p>Currently waiting confirmation for: <%= resource.unconfirmed_email %></p>
     <% end %>
