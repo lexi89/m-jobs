@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'omniauth-facebook'
 gem 'rails-jquery-autocomplete'
 gem 'jquery-ui-rails'
 gem 'figaro'
