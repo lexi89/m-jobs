@@ -36,8 +36,12 @@
 		</div>
 	</div>
 	<br>
-	<div class="row center">
-		<button class = "btn btn-lg btn-success">Apply now</button>
+	<div class="row center apply-button-wrapper">
+		<% if current_user.applied?(@job) %>
+			<%= render "applications/applied" %>
+		<% else %>
+			<%= render "applications/apply"%>
+		<% end %>
 	</div>
 	<hr>
 

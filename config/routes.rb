@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   root "companies#index"
   devise_for :users, :controllers => { :omniauth_callbacks => "omniauth_callbacks" }
   # devise_scope :user do
@@ -14,5 +15,6 @@ Rails.application.routes.draw do
     get :autocomplete_company_name, on: :collection
     post :claim
   end
+  resources :applications, only: [:index, :create, :destroy]
   resources :interests, only: [:index, :create, :destroy]
 end

@@ -5,6 +5,8 @@ class User < ActiveRecord::Base
   has_many :skills, through: :userskills
   accepts_nested_attributes_for :skills
   has_many :admins, dependent: :destroy
+  has_many :applications, foreign_key: "applicant_id", dependent: :destroy
+  has_many :job_applications, through: :applications, source: :job
   has_many :companies, through: :admins
   has_many :interests, foreign_key: "follower_id", dependent: :destroy
   has_many :following, through: :interests, source: :followed
@@ -28,6 +30,18 @@ class User < ActiveRecord::Base
         user.email = data["email"] if user.email.blank?
       end
     end
+  end
+
+  def apply(job)
+    applications.create(job_id: job.id)
+  end
+
+  def unapply(job)
+    applications.find_by(job_id: job.id).destroy
+  end
+
+  def applied?(job)
+    job_applications.include?(job)
   end
 
   def follow(company)

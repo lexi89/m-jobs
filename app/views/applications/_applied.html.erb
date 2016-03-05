@@ -1,0 +1,5 @@
+<%= form_for(current_user.applications.find_by(job_id: @job.id), html:
+              {method: :delete}, remote: true) do |f| %>
+  <%= hidden_field_tag :job_id, @job.id %>
+  <%= f.submit "Unapply", class: "btn btn-lg btn-danger" %>
+<% end %>
