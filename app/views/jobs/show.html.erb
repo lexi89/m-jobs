@@ -31,16 +31,20 @@
 			</small></h4>
 			<h4>Job type<br>
 			<small><%= @job.jobtype %> </small></h4>
-			<%= link_to 'Edit job', edit_company_job_path(@job.company_id, @job) %> |
-			<%= link_to "Back to #{@job.company.name} page", company_path(@job.company_id) %>
+			<%= link_to 'Edit job', edit_company_job_path(@job.company_id, @job), class: "btn btn-sm btn-success" if user_signed_in? && ( current_user.role == "admin" || @job.company.users.include?(current_user) ) %>
 		</div>
 	</div>
 	<br>
 	<div class="row center apply-button-wrapper">
-		<% if current_user.applied?(@job) %>
-			<%= render "applications/applied" %>
+		<!-- if no user, prompt to signup -->
+		<% if user_signed_in? %>
+			<% if current_user.applied?(@job) %>
+				<%= render "applications/applied" %>
+			<% else %>
+				<%= render "applications/apply"%>
+			<% end %>
 		<% else %>
-			<%= render "applications/apply"%>
+			<%= link_to "Sign up to apply for the job", new_user_registration_path, class: "btn btn-lg btn-success" %>
 		<% end %>
 	</div>
 	<hr>
