@@ -1,30 +1,40 @@
 <%= render 'layouts/searchbar'%>
-<h2>Following</h2>
-<% @companies.each do |company| %>
-    <div class="media plate">
-        <div class="media-left">
-                <div class="media-object">
-                    <%= image_tag(company.logo.thumb) if company.logo?%>
-                </div>
-        </div>
-        <div class="media-body">
-            <div class="media-heading">
-                <h4><strong><%= link_to "#{company.name}", company_path(company)%></strong></h4>
+<% if current_user.following.count == 0 %>
+  <div class="jumbotron subtle">
+    <h1>You aren't following any companies</h1>
+    <p>
+      <%= link_to "Click here", root_path %> to find a mission you care about </p>
+  </div>
+<% else %>
+  <h2>Companies followed:</h2>
+  <% @companies.each do |company| %>
+      <div class="media plate">
+          <div class="media-left">
+            <div class="media-object">
+                <%= image_tag(company.logo.thumb) if company.logo?%>
             </div>
-            <p><em><%= company.mission%></em></p>
-            <p><% company.industries.each do |i| %>
-                    <li class = "nodec tag inline"><%= link_to "#{i.name}", industry_path(i)%></li>
-                <% end %></p>
-            <%= render "companies/minijobs", company: company if company.jobs.count >= 2 %>
-            <div class="details">
-                <hr id = "dark">
-                <h4>About us:</h4>
-                <p><%= company.description %></p>
-            </div>
-            <% if user_signed_in? && current_user.role == "admin" %>
-                 <p><%= link_to "Edit '#{company.name}'", edit_company_path(company) %> |
-                 <%= link_to "Delete '#{company.name}'", company, method: :delete, data: { confirm: 'Are you sure?' } %></p>
-            <% end %>
-        </div>
-    </div>
-<% end %>
+          </div>
+          <div class="media-body">
+              <div class="media-heading">
+                  <h3><strong><%= link_to "#{company.name}", company_path(company)%></strong></h3>
+              </div>
+              <p>Mission: <em><%= company.mission%></em></p>
+              <span class="plate-font">
+                Industry: <% company.industries.each do |i| %>
+                            <span class = "nodec tag inline"><%= link_to "#{i.name}", industry_path(i)%>
+                            </span>
+                          <% end %></span>
+              <%= render "companies/minijobs", company: company if company.jobs.count >= 2 %>
+              <div class="details">
+                  <hr id = "dark">
+                  <h4>About us:</h4>
+                  <p><%= company.description %></p>
+              </div>
+              <% if user_signed_in? && current_user.role == "admin" %>
+                   <p><%= link_to "Edit '#{company.name}'", edit_company_path(company) %> |
+                   <%= link_to "Delete '#{company.name}'", company, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+              <% end %>
+          </div>
+      </div>
+  <% end %> <!-- end follow loop-->
+<% end %> <!-- end if else -->

@@ -6,7 +6,8 @@ Rails.application.routes.draw do
   #   delete 'sign_out',
   #   :to => 'devise/sessions#destroy', :as => :destroy_user_session
   #   end
-  resources :users, only: :show
+  get "users/:id" => "users#show", as: :user
+  get "users/:id/applications" => "users#applications", as: :user_applications
   resources :industries, only: [:show, :edit, :update, :destroy]
   resources :categories, only: [:show, :edit, :update, :destroy]
   resources :companies do
@@ -15,6 +16,6 @@ Rails.application.routes.draw do
     get :autocomplete_company_name, on: :collection
     post :claim
   end
-  resources :applications, only: [:index, :create, :destroy]
+  resources :applications, only: [:create, :destroy]
   resources :interests, only: [:index, :create, :destroy]
 end

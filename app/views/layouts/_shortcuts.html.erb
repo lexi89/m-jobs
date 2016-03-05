@@ -3,6 +3,9 @@
 		<p class = "sidebar-button"><%= link_to "Browse all", root_path %></p>
 	<% if user_signed_in? %>
 		<p class = "sidebar-button border-top"><%= link_to "Following", interests_path %></p>
+		<p class="sidebar-button border-top">
+			<%= link_to "My applications", user_applications_path(current_user) %>
+		</p>
 	<% end %>
-	
+
 </div>

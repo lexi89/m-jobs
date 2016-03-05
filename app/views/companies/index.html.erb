@@ -13,7 +13,7 @@
             <p>Mission: <em><%= company.mission%></em></p>
             <span class = "plate-font">Industries:</span>
               <% company.industries.each do |i| %>
-                <li class = "nodec tag inline silent"><%= link_to "#{i.name}", industry_path(i), class: "silent"%></li>
+                <span class = "nodec tag inline silent"><%= link_to "#{i.name}", industry_path(i), class: "silent"%></span>
               <% end %>
             <% if company.jobs.count >= 2 %>
                 <%= render "minijobs", company: company %>

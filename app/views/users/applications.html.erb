@@ -1,0 +1,33 @@
+<% if current_user.job_applications.count == 0 %>
+    <div class="jumbotron subtle">
+      <h1>You have no open applications</h1>
+      <p><%= link_to "Click here", root_path %> to browse companies and find a mission</p>
+    </div>
+  <% else %>
+  <h1>My applications</h1>
+    <% @user.job_applications.each do |j| %>
+      <div class="media plate">
+          <div class="media-left">
+                  <div class="media-object">
+                      <%= image_tag(j.company.logo.thumb) if j.company.logo?%>
+                  </div>
+          </div>
+          <div class="media-body">
+              <div class="media-heading">
+                <h4><%= link_to "#{j.title} at #{j.company.name}", company_job_path(j.company, j) %> <br>
+                  <small>
+                    Mission: <%= j.company.mission %>  <br>
+                    Location: <%= j.location %> <br>
+                    Salary: <%= number_to_human(j.salarymin, precision: 2,
+                                  separator: '.',
+                                  significant: true, units: { thousand: "k"}) %> to
+                          <%= number_to_human(j.salarymax, precision: 2,
+                                        separator: '.',
+                                        significant: true, units: { thousand: "k"}) %> <br>
+                  **TO DO** Status: received</small>
+                  </small></h4>
+              </div>
+            </div> <!-- close heading div -->
+      </div> <!-- close media plate div -->
+    <% end %> <!-- end applications loop -->
+  <% end %> <!-- end if else -->
