@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hi, <%= @admin.firstname %>!</h1>
+    <p>
+      There's a new applicant for <%= @job.title %>
+      <%= link_to "#{@applicant.firstname} #{@applicant.surname}", user_url(@applicant) %>
+    </p>
+    <p>Have a great day!</p>
+  </body>
+</html>
