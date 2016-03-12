@@ -8,13 +8,14 @@
 <%= simple_form_for @company, html: { multipart: true } do |f| %>
 <%= f.error_notification %>
     <br>
-    <%= f.input :name %>
+    <%= f.input :name, label: "Company name", input_html: { class: "small"} %>
     <%= f.input :mission %>
-    <%= f.input :url %>
-    <%= f.input :description %>
+    <%= f.input :url, input_html: {class: "medium"}, label: "Homepage URL"%>
+    <%= f.input :description, as: :text, input_html: { class: "textbox"}%>
+    <%= f.input :making, as: :text, input_html: { class: "textbox"}, label: "What we're making"%>
     <%= f.input :industry_ids, as: :check_boxes, collection: Industry.all, label: "Industries", value: :id %>
-    <%= f.input :location, as: :country, label: "HQ location" %>
-    <%= f.input :employees, collection: ["1-10", "11-50", "51-200", "200+"] %>
+    <%= f.input :location, as: :country, label: "HQ location", input_html: { class: "small"} %>
+    <%= f.input :employees, collection: ["1-10", "11-50", "51-200", "200+"], input_html: { class: "small"} %>
     <%= f.input :logo %>
     <%= f.submit %>
 <% end %>

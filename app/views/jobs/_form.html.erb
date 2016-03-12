@@ -10,8 +10,8 @@
         <%= f.input :title %></div>
     </div>
     <div class="row">
-      <div class="col-md-6">
-        <%= f.input :description, as: :text, placeholder: "The short description about the job. e.g. 'Looking for a talented full-stack developer to build a learning platform from scratch'", input_html: { max: 999 } %></div>
+      <div class="col-md-8">
+        <%= f.input :description, as: :text, placeholder: "The short description about the job. e.g. 'Looking for a talented full-stack developer to build a learning platform from scratch'", input_html: { max: 999, class: "textbox medium" } %></div>
     </div>
     <div class="row">
       <div class="col-md-3">
@@ -37,8 +37,8 @@
       </div>
       <br>
     <div class="row">
-      <div class="col-md-6">
-        <%= f.input :requirements, as: :text, placeholder: "The experience and skills required for the job" %>
+      <div class="col-md-8">
+        <%= f.input :requirements, as: :text, placeholder: "The experience and skills required for the job", input_html: {class: "textbox medium"} %>
       </div>
     </div>
     <div class="row">

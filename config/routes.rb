@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root "companies#index"
+  root "static_pages#home"
   devise_for :users, :controllers => { :omniauth_callbacks => "omniauth_callbacks" }
   # devise_scope :user do
   #   delete 'sign_out',

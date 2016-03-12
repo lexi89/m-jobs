@@ -1,0 +1,5183 @@
+{
+"CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
+"creatorBuild": "19115",
+"files": {
+	"\/app\/assets\/css\/application.css.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/css\/application.css.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/assets\/images\/deskhero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.15224e+06,
+		"inputAbbreviatedPath": "\/app\/assets\/images\/deskhero.png",
+		"outputAbbreviatedPath": "\/app\/assets\/images\/deskhero.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/assets\/images\/Tesla_Motors_logo.svg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11507,
+		"inputAbbreviatedPath": "\/app\/assets\/images\/Tesla_Motors_logo.svg.png",
+		"outputAbbreviatedPath": "\/app\/assets\/images\/Tesla_Motors_logo.svg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/assets\/javascripts\/application.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/javascripts\/application.js",
+		"outputAbbreviatedPath": "\/app\/assets\/javascripts\/min\/application-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/app\/assets\/javascripts\/applications.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/javascripts\/applications.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/app\/assets\/javascripts\/applications.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/app\/assets\/javascripts\/interests.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/javascripts\/interests.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/app\/assets\/javascripts\/interests.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/app\/assets\/javascripts\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/javascripts\/main.js",
+		"outputAbbreviatedPath": "\/app\/assets\/javascripts\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/app\/assets\/javascripts\/static_pages.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/javascripts\/static_pages.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/app\/assets\/javascripts\/static_pages.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/app\/assets\/javascripts\/users.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/javascripts\/users.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/app\/assets\/javascripts\/users.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/app\/assets\/stylesheets\/application.css.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/application.css.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/css\/application.css.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/base\/_alignments.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/base\/_alignments.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/_alignments.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/base\/_borders.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/base\/_borders.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/_borders.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/base\/_colors.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/base\/_colors.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/_colors.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/base\/_decorations.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/base\/_decorations.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/_decorations.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/base\/_fonts.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/base\/_fonts.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/_fonts.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/base\/_sizes.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/base\/_sizes.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/_sizes.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/base\/base-dir.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/base\/base-dir.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/base-dir.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/css\/colors.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/colors.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/assets\/stylesheets\/css\/modules-dir.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/modules-dir.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/assets\/stylesheets\/modules\/_applications.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/modules\/_applications.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/_applications.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/modules\/_autocomplete.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/modules\/_autocomplete.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/_autocomplete.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/modules\/_companypage.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/modules\/_companypage.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/_companypage.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/modules\/_forms.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/modules\/_forms.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/_forms.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/modules\/_homepage.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/modules\/_homepage.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/_homepage.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/modules\/_jobpage.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/modules\/_jobpage.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/_jobpage.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/modules\/_listings.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/modules\/_listings.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/_listings.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/modules\/_nav.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/modules\/_nav.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/_nav.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/modules\/_notices.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/modules\/_notices.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/_notices.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/modules\/_profile.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/modules\/_profile.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/_profile.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/modules\/_searchbar.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/modules\/_searchbar.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/_searchbar.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/modules\/_sidebar.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/modules\/_sidebar.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/_sidebar.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/modules\/modules-dir.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/modules\/modules-dir.sass",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/css\/modules-dir.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/_bourbon-deprecated-upcoming.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/_bourbon-deprecated-upcoming.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/css\/_bourbon-deprecated-upcoming.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/_bourbon.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/_bourbon.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/css\/_bourbon.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_border-color.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_border-color.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_border-color.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_border-radius.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_border-radius.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_border-radius.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_border-style.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_border-style.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_border-style.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_border-width.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_border-width.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_border-width.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_buttons.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_buttons.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_buttons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_clearfix.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_clearfix.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_clearfix.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_ellipsis.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_ellipsis.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_ellipsis.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_font-stacks.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_font-stacks.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_font-stacks.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_hide-text.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_hide-text.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_hide-text.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_margin.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_margin.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_margin.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_padding.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_padding.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_padding.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_position.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_position.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_position.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_prefixer.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_prefixer.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_prefixer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_retina-image.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_retina-image.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_retina-image.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_size.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_size.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_size.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_text-inputs.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_text-inputs.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_text-inputs.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_timing-functions.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_timing-functions.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_timing-functions.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_triangle.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_triangle.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_triangle.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_word-wrap.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/addons\/_word-wrap.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_word-wrap.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_animation.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_animation.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_animation.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_appearance.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_appearance.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_appearance.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_backface-visibility.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_backface-visibility.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_backface-visibility.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_background-image.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_background-image.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_background-image.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_background.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_background.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_background.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_border-image.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_border-image.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_border-image.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_calc.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_calc.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_calc.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_columns.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_columns.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_columns.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_filter.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_filter.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_filter.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_flex-box.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_flex-box.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_flex-box.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_font-face.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_font-face.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_font-face.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_font-feature-settings.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_font-feature-settings.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_font-feature-settings.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_hidpi-media-query.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_hidpi-media-query.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_hidpi-media-query.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_hyphens.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_hyphens.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_hyphens.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_image-rendering.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_image-rendering.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_image-rendering.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_keyframes.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_keyframes.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_keyframes.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_linear-gradient.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_linear-gradient.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_linear-gradient.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_perspective.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_perspective.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_perspective.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_placeholder.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_placeholder.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_placeholder.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_radial-gradient.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_radial-gradient.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_radial-gradient.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_selection.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_selection.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_selection.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_text-decoration.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_text-decoration.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_text-decoration.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_transform.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_transform.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_transform.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_transition.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_transition.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_transition.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_user-select.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css3\/_user-select.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_user-select.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_assign-inputs.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_assign-inputs.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_assign-inputs.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_contains-falsy.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_contains-falsy.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_contains-falsy.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_contains.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_contains.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_contains.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_is-length.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_is-length.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_is-length.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_is-light.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_is-light.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_is-light.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_is-number.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_is-number.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_is-number.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_is-size.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_is-size.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_is-size.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_modular-scale.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_modular-scale.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_modular-scale.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_px-to-em.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_px-to-em.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_px-to-em.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_px-to-rem.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_px-to-rem.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_px-to-rem.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_shade.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_shade.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_shade.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_strip-units.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_strip-units.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_strip-units.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_tint.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_tint.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_tint.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_transition-property-name.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_transition-property-name.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_transition-property-name.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_unpack.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/functions\/_unpack.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_unpack.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_convert-units.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_convert-units.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_convert-units.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_directional-values.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_directional-values.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_directional-values.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_font-source-declaration.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_font-source-declaration.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_font-source-declaration.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_gradient-positions-parser.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_gradient-positions-parser.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_gradient-positions-parser.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_linear-angle-parser.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_linear-angle-parser.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_linear-angle-parser.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_linear-gradient-parser.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_linear-gradient-parser.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_linear-gradient-parser.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_linear-positions-parser.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_linear-positions-parser.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_linear-positions-parser.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_linear-side-corner-parser.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_linear-side-corner-parser.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_linear-side-corner-parser.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_radial-arg-parser.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_radial-arg-parser.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_radial-arg-parser.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_radial-gradient-parser.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_radial-gradient-parser.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_radial-gradient-parser.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_radial-positions-parser.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_radial-positions-parser.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_radial-positions-parser.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_render-gradients.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_render-gradients.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_render-gradients.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_shape-size-stripper.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_shape-size-stripper.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_shape-size-stripper.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_str-to-num.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/helpers\/_str-to-num.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_str-to-num.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/settings\/_asset-pipeline.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/settings\/_asset-pipeline.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_asset-pipeline.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/settings\/_prefixer.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/settings\/_prefixer.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_prefixer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/plugins\/bourbon\/settings\/_px-to-em.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/settings\/_px-to-em.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/stylesheets\/plugins\/bourbon\/css\/_px-to-em.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/static_pages.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/static_pages.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/css\/static_pages.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/views\/admin_mailer\/new_applicant.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/admin_mailer\/new_applicant.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/applications\/_applied.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/applications\/_applied.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/applications\/_apply.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/applications\/_apply.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/applications\/create.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/applications\/create.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/applications\/create.js.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/applications\/create.js.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/applications\/destroy.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/applications\/destroy.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/applications\/destroy.js.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/applications\/destroy.js.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/applications\/index.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/applications\/index.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/categories\/show.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/categories\/show.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/companies\/_form.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/companies\/_form.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/companies\/_minijobs.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/companies\/_minijobs.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/companies\/edit.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/companies\/edit.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/companies\/index.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/companies\/index.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/companies\/new.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/companies\/new.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/companies\/show.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/companies\/show.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/devise\/confirmations\/new.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/devise\/confirmations\/new.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/devise\/mailer\/confirmation_instructions.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/devise\/mailer\/confirmation_instructions.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/devise\/mailer\/password_change.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/devise\/mailer\/password_change.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/devise\/mailer\/reset_password_instructions.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/devise\/mailer\/reset_password_instructions.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/devise\/mailer\/unlock_instructions.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/devise\/mailer\/unlock_instructions.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/devise\/passwords\/edit.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/devise\/passwords\/edit.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/devise\/passwords\/new.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/devise\/passwords\/new.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/devise\/registrations\/edit.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/devise\/registrations\/edit.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/devise\/registrations\/new.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/devise\/registrations\/new.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/devise\/sessions\/new.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/devise\/sessions\/new.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/devise\/shared\/_links.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/devise\/shared\/_links.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/devise\/unlocks\/new.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/devise\/unlocks\/new.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/industries\/show.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/industries\/show.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/interests\/_follow.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/interests\/_follow.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/interests\/_unfollow.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/interests\/_unfollow.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/interests\/create.js.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/interests\/create.js.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/interests\/destroy.js.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/interests\/destroy.js.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/interests\/index.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/interests\/index.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/jobs\/_form.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/jobs\/_form.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/jobs\/edit.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/jobs\/edit.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/jobs\/new.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/jobs\/new.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/jobs\/show.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/jobs\/show.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/layouts\/_footer.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/layouts\/_footer.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/layouts\/_navigation.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/layouts\/_navigation.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/layouts\/_profilelinks.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/layouts\/_profilelinks.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/layouts\/_searchbar.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/layouts\/_searchbar.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/layouts\/_shortcuts.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/layouts\/_shortcuts.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/layouts\/application.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/layouts\/application.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/layouts\/mailer.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/layouts\/mailer.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/layouts\/mailer.text.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/layouts\/mailer.text.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/layouts\/static.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/layouts\/static.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/shared\/_jobtable.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/shared\/_jobtable.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/static_pages\/home.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/static_pages\/home.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/user_mailer\/new_job.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/user_mailer\/new_job.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/users\/applications.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/users\/applications.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/users\/show.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/users\/show.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lib\/templates\/erb\/scaffold\/_form.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/templates\/erb\/scaffold\/_form.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/404.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/404.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/422.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/422.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/500.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/500.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/javascripts\/autocomplete-rails.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/javascripts\/autocomplete-rails.js",
+		"outputAbbreviatedPath": "\/public\/javascripts\/min\/autocomplete-rails-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/uploads\/company\/logo\/10\/full_mad-rock-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68052,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/10\/full_mad-rock-logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/10\/full_mad-rock-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/10\/mad-rock-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41822,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/10\/mad-rock-logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/10\/mad-rock-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/10\/square_mad-rock-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36745,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/10\/square_mad-rock-logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/10\/square_mad-rock-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/10\/thumb_mad-rock-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5689,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/10\/thumb_mad-rock-logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/10\/thumb_mad-rock-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/12\/full_kat.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40360,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/12\/full_kat.JPG",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/12\/full_kat.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/12\/kat.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.75966e+06,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/12\/kat.JPG",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/12\/kat.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/12\/square_kat.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33411,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/12\/square_kat.JPG",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/12\/square_kat.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/12\/thumb_kat.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27470,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/12\/thumb_kat.JPG",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/12\/thumb_kat.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/13\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/13\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/13\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/13\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/13\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/13\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/13\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/13\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/13\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/13\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/13\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/13\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/14\/full.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160076,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/14\/full.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/14\/full.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/14\/full_full.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14057,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/14\/full_full.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/14\/full_full.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/14\/square_full.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7398,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/14\/square_full.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/14\/square_full.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/14\/thumb_full.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1031,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/14\/thumb_full.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/14\/thumb_full.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/447\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/447\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/447\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/447\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/447\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/447\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/447\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/447\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/447\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/447\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/447\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/447\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/448\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/448\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/448\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/448\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/448\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/448\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/448\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/448\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/448\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/448\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/448\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/448\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/449\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/449\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/449\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/449\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/449\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/449\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/449\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/449\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/449\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/449\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/449\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/449\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/450\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/450\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/450\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/450\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/450\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/450\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/450\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/450\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/450\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/450\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/450\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/450\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/451\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/451\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/451\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/451\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/451\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/451\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/451\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/451\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/451\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/451\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/451\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/451\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/452\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/452\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/452\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/452\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/452\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/452\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/452\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/452\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/452\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/452\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/452\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/452\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/453\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/453\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/453\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/453\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/453\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/453\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/453\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/453\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/453\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/453\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/453\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/453\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/454\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/454\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/454\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/454\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/454\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/454\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/454\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/454\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/454\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/454\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/454\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/454\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/455\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/455\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/455\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/455\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/455\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/455\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/455\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/455\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/455\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/455\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/455\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/455\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/456\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/456\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/456\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/456\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/456\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/456\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/456\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/456\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/456\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/456\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/456\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/456\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/457\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/457\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/457\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/457\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/457\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/457\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/457\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/457\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/457\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/457\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/457\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/457\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/458\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/458\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/458\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/458\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/458\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/458\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/458\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/458\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/458\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/458\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/458\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/458\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/459\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/459\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/459\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/459\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/459\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/459\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/459\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/459\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/459\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/459\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/459\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/459\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/460\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/460\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/460\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/460\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/460\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/460\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/460\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/460\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/460\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/460\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/460\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/460\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/461\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/461\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/461\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/461\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/461\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/461\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/461\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/461\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/461\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/461\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/461\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/461\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/462\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/462\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/462\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/462\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/462\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/462\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/462\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/462\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/462\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/462\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/462\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/462\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/463\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/463\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/463\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/463\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/463\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/463\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/463\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/463\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/463\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/463\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/463\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/463\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/464\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/464\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/464\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/464\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/464\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/464\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/464\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/464\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/464\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/464\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/464\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/464\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/465\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/465\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/465\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/465\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/465\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/465\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/465\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/465\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/465\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/465\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/465\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/465\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/466\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/466\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/466\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/466\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/466\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/466\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/466\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/466\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/466\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/466\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/466\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/466\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/467\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/467\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/467\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/467\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/467\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/467\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/467\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/467\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/467\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/467\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/467\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/467\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/468\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/468\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/468\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/468\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/468\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/468\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/468\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/468\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/468\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/468\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/468\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/468\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/469\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/469\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/469\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/469\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/469\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/469\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/469\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/469\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/469\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/469\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/469\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/469\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/470\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/470\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/470\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/470\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/470\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/470\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/470\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/470\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/470\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/470\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/470\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/470\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/471\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/471\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/471\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/471\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/471\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/471\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/471\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/471\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/471\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/471\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/471\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/471\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/472\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/472\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/472\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/472\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/472\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/472\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/472\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/472\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/472\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/472\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/472\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/472\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/473\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/473\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/473\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/473\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/473\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/473\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/473\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/473\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/473\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/473\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/473\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/473\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/475\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/475\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/475\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/475\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/475\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/475\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/475\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/475\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/475\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/475\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/475\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/475\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/476\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/476\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/476\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/476\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/476\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/476\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/476\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/476\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/476\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/476\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/476\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/476\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/477\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/477\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/477\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/477\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/477\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/477\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/477\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/477\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/477\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/477\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/477\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/477\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/478\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/478\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/478\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/478\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/478\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/478\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/478\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/478\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/478\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/478\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/478\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/478\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/479\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/479\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/479\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/479\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/479\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/479\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/479\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/479\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/479\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/479\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/479\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/479\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/480\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/480\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/480\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/480\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/480\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/480\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/480\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/480\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/480\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/480\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/480\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/480\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/481\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/481\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/481\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/481\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/481\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/481\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/481\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/481\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/481\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/481\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/481\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/481\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/482\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/482\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/482\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/482\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/482\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/482\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/482\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/482\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/482\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/482\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/482\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/482\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/483\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/483\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/483\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/483\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/483\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/483\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/483\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/483\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/483\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/483\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/483\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/483\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/484\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/484\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/484\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/484\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/484\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/484\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/484\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/484\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/484\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/484\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/484\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/484\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/485\/full_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4776,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/485\/full_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/485\/full_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/485\/square_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3334,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/485\/square_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/485\/square_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/485\/TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6024,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/485\/TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/485\/TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/485\/thumb_TED_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/485\/thumb_TED_logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/485\/thumb_TED_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/7\/full_Petzl-Logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7731,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/7\/full_Petzl-Logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/7\/full_Petzl-Logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/7\/Petzl-Logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13549,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/7\/Petzl-Logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/7\/Petzl-Logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/7\/square_Petzl-Logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4939,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/7\/square_Petzl-Logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/7\/square_Petzl-Logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/company\/logo\/7\/thumb_Petzl-Logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1244,
+		"inputAbbreviatedPath": "\/public\/uploads\/company\/logo\/7\/thumb_Petzl-Logo.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/company\/logo\/7\/thumb_Petzl-Logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/tmp\/1455974224-7177-2989\/kat.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.75966e+06,
+		"inputAbbreviatedPath": "\/public\/uploads\/tmp\/1455974224-7177-2989\/kat.JPG",
+		"outputAbbreviatedPath": "\/public\/uploads\/tmp\/1455974224-7177-2989\/kat.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/tmp\/1455974224-7177-2989\/thumb_kat.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.75966e+06,
+		"inputAbbreviatedPath": "\/public\/uploads\/tmp\/1455974224-7177-2989\/thumb_kat.JPG",
+		"outputAbbreviatedPath": "\/public\/uploads\/tmp\/1455974224-7177-2989\/thumb_kat.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/tmp\/1456579656-27282-0798\/headshot_200x200.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78287,
+		"inputAbbreviatedPath": "\/public\/uploads\/tmp\/1456579656-27282-0798\/headshot_200x200.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/tmp\/1456579656-27282-0798\/headshot_200x200.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/tmp\/1456579656-27282-0798\/thumb_headshot_200x200.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6344,
+		"inputAbbreviatedPath": "\/public\/uploads\/tmp\/1456579656-27282-0798\/thumb_headshot_200x200.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/tmp\/1456579656-27282-0798\/thumb_headshot_200x200.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/tmp\/1456580621-27282-3126\/headshot_200x200.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78287,
+		"inputAbbreviatedPath": "\/public\/uploads\/tmp\/1456580621-27282-3126\/headshot_200x200.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/tmp\/1456580621-27282-3126\/headshot_200x200.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/tmp\/1456580621-27282-3126\/nav_headshot_200x200.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2558,
+		"inputAbbreviatedPath": "\/public\/uploads\/tmp\/1456580621-27282-3126\/nav_headshot_200x200.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/tmp\/1456580621-27282-3126\/nav_headshot_200x200.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/tmp\/1456580621-27282-3126\/thumb_headshot_200x200.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6344,
+		"inputAbbreviatedPath": "\/public\/uploads\/tmp\/1456580621-27282-3126\/thumb_headshot_200x200.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/tmp\/1456580621-27282-3126\/thumb_headshot_200x200.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/user\/image\/4\/headshot_200x200.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78287,
+		"inputAbbreviatedPath": "\/public\/uploads\/user\/image\/4\/headshot_200x200.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/user\/image\/4\/headshot_200x200.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/user\/image\/4\/nav_headshot_200x200.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2558,
+		"inputAbbreviatedPath": "\/public\/uploads\/user\/image\/4\/nav_headshot_200x200.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/user\/image\/4\/nav_headshot_200x200.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/uploads\/user\/image\/4\/thumb_headshot_200x200.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6344,
+		"inputAbbreviatedPath": "\/public\/uploads\/user\/image\/4\/thumb_headshot_200x200.png",
+		"outputAbbreviatedPath": "\/public\/uploads\/user\/image\/4\/thumb_headshot_200x200.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/solr\/configsets\/sunspot\/conf\/_rest_managed.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/solr\/configsets\/sunspot\/conf\/_rest_managed.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/solr\/configsets\/sunspot\/conf\/_rest_managed-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/solr\/configsets\/sunspot\/conf\/admin-extra.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/solr\/configsets\/sunspot\/conf\/admin-extra.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/tmp\/data\/meta_request\/34e93118-55ab-41e8-8632-bfa959256db2.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tmp\/data\/meta_request\/34e93118-55ab-41e8-8632-bfa959256db2.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/tmp\/data\/meta_request\/34e93118-55ab-41e8-8632-bfa959256db2-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/tmp\/data\/meta_request\/4ae3b862-7158-498d-a783-cad9529546e6.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tmp\/data\/meta_request\/4ae3b862-7158-498d-a783-cad9529546e6.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/tmp\/data\/meta_request\/4ae3b862-7158-498d-a783-cad9529546e6-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/tmp\/data\/meta_request\/5754d297-f361-48dd-b20b-5d37d7d0de93.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tmp\/data\/meta_request\/5754d297-f361-48dd-b20b-5d37d7d0de93.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/tmp\/data\/meta_request\/5754d297-f361-48dd-b20b-5d37d7d0de93-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/tmp\/data\/meta_request\/5ba84b3b-b5cd-4a7b-ac43-72ff5f728f92.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tmp\/data\/meta_request\/5ba84b3b-b5cd-4a7b-ac43-72ff5f728f92.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/tmp\/data\/meta_request\/5ba84b3b-b5cd-4a7b-ac43-72ff5f728f92-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/tmp\/data\/meta_request\/6b80f958-b531-469a-bedb-03f27069af79.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tmp\/data\/meta_request\/6b80f958-b531-469a-bedb-03f27069af79.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/tmp\/data\/meta_request\/6b80f958-b531-469a-bedb-03f27069af79-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/tmp\/data\/meta_request\/8521ed33-ef4c-4555-b70f-37cc8cbcf6d1.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tmp\/data\/meta_request\/8521ed33-ef4c-4555-b70f-37cc8cbcf6d1.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/tmp\/data\/meta_request\/8521ed33-ef4c-4555-b70f-37cc8cbcf6d1-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/tmp\/data\/meta_request\/c83f3947-1b2e-4d73-b82b-04a9c1d59a84.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tmp\/data\/meta_request\/c83f3947-1b2e-4d73-b82b-04a9c1d59a84.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/tmp\/data\/meta_request\/c83f3947-1b2e-4d73-b82b-04a9c1d59a84-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/tmp\/data\/meta_request\/dae43376-1137-4dec-b7d1-0abcde8ce5fa.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tmp\/data\/meta_request\/dae43376-1137-4dec-b7d1-0abcde8ce5fa.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/tmp\/data\/meta_request\/dae43376-1137-4dec-b7d1-0abcde8ce5fa-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/tmp\/data\/meta_request\/e28e10eb-777f-4ba7-bf91-dda02537c274.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tmp\/data\/meta_request\/e28e10eb-777f-4ba7-bf91-dda02537c274.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/tmp\/data\/meta_request\/e28e10eb-777f-4ba7-bf91-dda02537c274-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/tmp\/data\/meta_request\/edcda5c1-c766-4e2a-bbb8-e6ea46a8bb07.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tmp\/data\/meta_request\/edcda5c1-c766-4e2a-bbb8-e6ea46a8bb07.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/tmp\/data\/meta_request\/edcda5c1-c766-4e2a-bbb8-e6ea46a8bb07-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		}
+	},
+"hooks": [
+	],
+"lastSavedByUser": "Alexey",
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"bowerAbbreviatedPath": "",
+	"displayValue": "Jobs",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "compass_gray"
+	},
+"projectSettings": {
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoApplyPSLanguageSettingsStyle": 0,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoSyncProjectSettingsFile": 1,
+	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathEnabled": 1,
+	"coffeeAutoOutputPathFilenamePattern": "*.js",
+	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathReplace1": "",
+	"coffeeAutoOutputPathReplace2": "",
+	"coffeeAutoOutputPathStyle": 0,
+	"coffeeCreateSourceMap": 0,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"coffeeMinifyOutput": 1,
+	"coffeeOutputStyle": 0,
+	"coffeeSyntaxCheckerStyle": 1,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerPreviewPathAddition": "",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathEnabled": 1,
+	"hamlAutoOutputPathFilenamePattern": "*.html",
+	"hamlAutoOutputPathRelativePath": "",
+	"hamlAutoOutputPathReplace1": "",
+	"hamlAutoOutputPathReplace2": "",
+	"hamlAutoOutputPathStyle": 0,
+	"hamlEscapeHTMLCharacters": 0,
+	"hamlNoEscapeInAttributes": 0,
+	"hamlOutputFormat": 2,
+	"hamlOutputStyle": 0,
+	"hamlUseCDATA": 0,
+	"hamlUseDoubleQuotes": 0,
+	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathEnabled": 1,
+	"jadeAutoOutputPathFilenamePattern": "*.html",
+	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathReplace1": "",
+	"jadeAutoOutputPathReplace2": "",
+	"jadeAutoOutputPathStyle": 0,
+	"jadeCompileDebug": 1,
+	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
+	"javascriptAutoOutputPathRelativePath": "\/min",
+	"javascriptAutoOutputPathReplace1": "",
+	"javascriptAutoOutputPathReplace2": "",
+	"javascriptAutoOutputPathStyle": 2,
+	"javascriptCreateSourceMap": 1,
+	"javascriptOutputStyle": 1,
+	"javascriptSyntaxCheckerStyle": 1,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsonAutoOutputPathEnabled": 0,
+	"jsonAutoOutputPathFilenamePattern": "*-min.json",
+	"jsonAutoOutputPathRelativePath": "",
+	"jsonAutoOutputPathReplace1": "",
+	"jsonAutoOutputPathReplace2": "",
+	"jsonAutoOutputPathStyle": 0,
+	"jsonOrderOutput": 0,
+	"jsonOutputStyle": 1,
+	"kitAutoOutputPathEnabled": 1,
+	"kitAutoOutputPathFilenamePattern": "*.html",
+	"kitAutoOutputPathRelativePath": "",
+	"kitAutoOutputPathReplace1": "",
+	"kitAutoOutputPathReplace2": "",
+	"kitAutoOutputPathStyle": 0,
+	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathEnabled": 1,
+	"lessAutoOutputPathFilenamePattern": "*.css",
+	"lessAutoOutputPathRelativePath": "..\/css",
+	"lessAutoOutputPathReplace1": "less",
+	"lessAutoOutputPathReplace2": "css",
+	"lessAutoOutputPathStyle": 2,
+	"lessCreateSourceMap": 0,
+	"lessDisableJavascript": 0,
+	"lessIeCompatibility": 1,
+	"lessOutputStyle": 0,
+	"lessRelativeURLS": 0,
+	"lessStrictImports": 0,
+	"lessStrictMath": 0,
+	"lessStrictUnits": 0,
+	"markdownAutoOutputPathEnabled": 1,
+	"markdownAutoOutputPathFilenamePattern": "*.html",
+	"markdownAutoOutputPathRelativePath": "",
+	"markdownAutoOutputPathReplace1": "",
+	"markdownAutoOutputPathReplace2": "",
+	"markdownAutoOutputPathStyle": 0,
+	"markdownCriticStyle": 0,
+	"markdownEnableFootnotes": 1,
+	"markdownEnableLabels": 1,
+	"markdownEnableSmartQuotes": 1,
+	"markdownEscapeLineBreaks": 0,
+	"markdownMaskEmailAddresses": 1,
+	"markdownOutputFormat": 0,
+	"markdownOutputStyle": 0,
+	"markdownParseMetadata": 1,
+	"markdownProcessHTML": 0,
+	"markdownRandomFootnoteNumbers": 0,
+	"markdownUseCompatibilityMode": 0,
+	"reloadFileURLs": 0,
+	"sassAutoOutputPathEnabled": 1,
+	"sassAutoOutputPathFilenamePattern": "*.css",
+	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 2,
+	"sassCreateSourceMap": 0,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 10,
+	"sassOutputStyle": 0,
+	"sassUseLibsass": 0,
+	"shouldRunAutoprefixer": 0,
+	"shouldRunBless": 0,
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
+	"slimAutoOutputPathEnabled": 1,
+	"slimAutoOutputPathFilenamePattern": "*.html",
+	"slimAutoOutputPathRelativePath": "",
+	"slimAutoOutputPathReplace1": "",
+	"slimAutoOutputPathReplace2": "",
+	"slimAutoOutputPathStyle": 0,
+	"slimCompileOnly": 0,
+	"slimLogicless": 0,
+	"slimOutputFormat": 0,
+	"slimOutputStyle": 1,
+	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathEnabled": 1,
+	"stylusAutoOutputPathFilenamePattern": "*.css",
+	"stylusAutoOutputPathRelativePath": "..\/css",
+	"stylusAutoOutputPathReplace1": "stylus",
+	"stylusAutoOutputPathReplace2": "css",
+	"stylusAutoOutputPathStyle": 2,
+	"stylusCreateSourceMap": 0,
+	"stylusDebugStyle": 0,
+	"stylusImportCSS": 0,
+	"stylusOutputStyle": 0,
+	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathEnabled": 1,
+	"typescriptAutoOutputPathFilenamePattern": "*.js",
+	"typescriptAutoOutputPathRelativePath": "\/js",
+	"typescriptAutoOutputPathReplace1": "",
+	"typescriptAutoOutputPathReplace2": "",
+	"typescriptAutoOutputPathStyle": 2,
+	"typescriptCreateDeclarationFile": 0,
+	"typescriptCreateSourceMap": 0,
+	"typescriptJSXMode": 0,
+	"typescriptMinifyOutput": 0,
+	"typescriptModuleResolutionType": 0,
+	"typescriptModuleType": 0,
+	"typescriptNoImplicitAny": 0,
+	"typescriptPreserveConstEnums": 0,
+	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
+	"typescriptTargetECMAVersion": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "2"
+}

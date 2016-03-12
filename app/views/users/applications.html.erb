@@ -1,7 +1,7 @@
 <% if current_user.job_applications.count == 0 %>
     <div class="jumbotron subtle">
       <h1>You have no open applications</h1>
-      <p><%= link_to "Click here", root_path %> to browse companies and find a mission</p>
+      <p><%= link_to "Click here", companies_path %> to browse companies and find a mission</p>
     </div>
   <% else %>
   <h1>My applications</h1>

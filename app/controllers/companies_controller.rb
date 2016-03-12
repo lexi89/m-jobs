@@ -6,9 +6,9 @@ class CompaniesController < ApplicationController
     @company = Company.new
     begin
       Company.import(params[:file])
-      redirect_to root_path, notice: "Companies successfully imported"
+      redirect_to companies_path, notice: "Companies successfully imported"
     rescue
-      redirect_to root_path, notice: "Invalid CSV"
+      redirect_to companies_path, notice: "Invalid CSV"
     end
   end
 
@@ -40,7 +40,7 @@ class CompaniesController < ApplicationController
     @company = Company.new(company_params)
     respond_to do |format|
       if @company.save
-        format.html { redirect_to root_path, notice: 'Company was successfully created.' }
+        format.html { redirect_to companies_path, notice: 'Company was successfully created.' }
         format.json { render :show, status: :created, location: @company }
       else
         format.html { render :new }
@@ -75,6 +75,6 @@ class CompaniesController < ApplicationController
     end
 
     def company_params
-      params.require(:company).permit(:mission, :description, :name, :logo, :location, :url, :employees, :industry_ids => [])
+      params.require(:company).permit(:mission, :description, :name, :logo, :location, :url, :employees, :making, :industry_ids => [])
     end
 end

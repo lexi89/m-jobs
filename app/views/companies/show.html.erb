@@ -13,10 +13,8 @@
 			<h2>About us</h2>
 				<p><%= @company.description %></p>
 			<br>
-			<h2>TO DO (What We're making)</h2>
-				<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptate illo nobis iusto labore iure ipsam neque, culpa autem itaque, quis, assumenda tempora. Consequatur voluptates non, facilis delectus, ratione cumque!</span>
-				<span>Quidem porro pariatur quo veritatis, odit repellendus nihil, eius quasi temporibus ad aliquam ullam nam? Voluptate officia blanditiis ea, assumenda modi obcaecati, rerum nobis. Suscipit tenetur necessitatibus, odio quo ad.</span>
-				<span>Cupiditate obcaecati distinctio nulla, ut, culpa ex enim repellendus, quod illum, praesentium expedita quibusdam nisi nostrum a harum eius. Et vitae qui earum, ab quaerat, tempore sequi provident eos est!</span></p>
+			<h2>What we're making</h2>
+				<p><%= @company.making %></p>
 		</div>
 		<div class="col-md-4">
 			<h4>Industry:</h4>
@@ -40,7 +38,7 @@
 				</div>
 				<br>
 					<%= link_to "Claim #{@company.name}", company_claim_path(@company), method: :post if @company.users.exclude?(current_user) %>
-					<%= link_to "Edit #{@company.name}", edit_company_path(@company) if @company.users.include?(current_user) %>
+					<%= link_to "Edit #{@company.name}", edit_company_path(@company) if @company.users.include?(current_user) || current_user.role == "admin" %>
 			<% end %>
 		</div>
 	</div>
